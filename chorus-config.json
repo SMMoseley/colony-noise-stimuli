@@ -1,0 +1,221 @@
+{
+  "parameters": {
+    "correct_timeout": false,
+    "rand_replace": false,
+    "init_key": "peck_left",
+    "feed_duration": 1000
+  },
+  "stimulus_root": "/root/colony-noise-stimuli/stimuli",
+  "stimuli": [
+    {
+      "name": "0oq8ifcb",
+      "frequency": 1,
+      "responses": {
+        "peck_left": {
+          "p_reward": 1,
+          "correct": true
+        },
+        "peck_center": {
+          "p_punish": 1,
+          "correct": false
+        },
+        "peck_right": {
+          "p_punish": 1,
+          "correct": false
+        },
+        "timeout": {
+          "correct": false
+        }
+      }
+    },
+    {
+      "name": "9ex2k0dy",
+      "frequency": 1,
+      "responses": {
+        "peck_left": {
+          "p_reward": 1,
+          "correct": true
+        },
+        "peck_center": {
+          "p_punish": 1,
+          "correct": false
+        },
+        "peck_right": {
+          "p_punish": 1,
+          "correct": false
+        },
+        "timeout": {
+          "correct": false
+        }
+      }
+    },
+    {
+      "name": "c95zqjxq",
+      "frequency": 1,
+      "responses": {
+        "peck_left": {
+          "p_reward": 1,
+          "correct": true
+        },
+        "peck_center": {
+          "p_punish": 1,
+          "correct": false
+        },
+        "peck_right": {
+          "p_punish": 1,
+          "correct": false
+        },
+        "timeout": {
+          "correct": false
+        }
+      }
+    },
+    {
+      "name": "g29wxi4q",
+      "frequency": 1,
+      "responses": {
+        "peck_left": {
+          "p_punish": 1,
+          "correct": false
+        },
+        "peck_center": {
+          "p_reward": 1,
+          "correct": true
+        },
+        "peck_right": {
+          "p_punish": 1,
+          "correct": false
+        },
+        "timeout": {
+          "correct": false
+        }
+      }
+    },
+    {
+      "name": "igmi8fxa",
+      "frequency": 1,
+      "responses": {
+        "peck_left": {
+          "p_punish": 1,
+          "correct": false
+        },
+        "peck_center": {
+          "p_reward": 1,
+          "correct": true
+        },
+        "peck_right": {
+          "p_punish": 1,
+          "correct": false
+        },
+        "timeout": {
+          "correct": false
+        }
+      }
+    },
+    {
+      "name": "jkexyrd5",
+      "frequency": 1,
+      "responses": {
+        "peck_left": {
+          "p_punish": 1,
+          "correct": false
+        },
+        "peck_center": {
+          "p_reward": 1,
+          "correct": true
+        },
+        "peck_right": {
+          "p_punish": 1,
+          "correct": false
+        },
+        "timeout": {
+          "correct": false
+        }
+      }
+    },
+    {
+      "name": "l1a3ltpy",
+      "frequency": 1,
+      "responses": {
+        "peck_left": {
+          "p_reward": 1,
+          "correct": true
+        },
+        "peck_center": {
+          "p_punish": 1,
+          "correct": false
+        },
+        "peck_right": {
+          "p_punish": 1,
+          "correct": false
+        },
+        "timeout": {
+          "correct": false
+        }
+      }
+    },
+    {
+      "name": "p1mrfhop",
+      "frequency": 1,
+      "responses": {
+        "peck_left": {
+          "p_reward": 1,
+          "correct": true
+        },
+        "peck_center": {
+          "p_punish": 1,
+          "correct": false
+        },
+        "peck_right": {
+          "p_punish": 1,
+          "correct": false
+        },
+        "timeout": {
+          "correct": false
+        }
+      }
+    },
+    {
+      "name": "vekibwgj",
+      "frequency": 1,
+      "responses": {
+        "peck_left": {
+          "p_punish": 1,
+          "correct": false
+        },
+        "peck_center": {
+          "p_reward": 1,
+          "correct": true
+        },
+        "peck_right": {
+          "p_punish": 1,
+          "correct": false
+        },
+        "timeout": {
+          "correct": false
+        }
+      }
+    },
+    {
+      "name": "ztqee46x",
+      "frequency": 1,
+      "responses": {
+        "peck_left": {
+          "p_punish": 1,
+          "correct": false
+        },
+        "peck_center": {
+          "p_reward": 1,
+          "correct": true
+        },
+        "peck_right": {
+          "p_punish": 1,
+          "correct": false
+        },
+        "timeout": {
+          "correct": false
+        }
+      }
+    }
+  ]
+}
