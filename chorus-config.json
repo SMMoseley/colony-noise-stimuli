@@ -10,6 +10,9 @@
     {
       "name": "0oq8ifcb",
       "frequency": 1,
+      "cue_resp": [
+        "left_blue"
+      ],
       "responses": {
         "peck_left": {
           "p_reward": 1,
@@ -31,6 +34,9 @@
     {
       "name": "9ex2k0dy",
       "frequency": 1,
+      "cue_resp": [
+        "left_blue"
+      ],
       "responses": {
         "peck_left": {
           "p_reward": 1,
@@ -52,6 +58,9 @@
     {
       "name": "c95zqjxq",
       "frequency": 1,
+      "cue_resp": [
+        "left_blue"
+      ],
       "responses": {
         "peck_left": {
           "p_reward": 1,
@@ -73,6 +82,9 @@
     {
       "name": "g29wxi4q",
       "frequency": 1,
+      "cue_resp": [
+        "center_blue"
+      ],
       "responses": {
         "peck_left": {
           "p_punish": 1,
@@ -94,6 +106,9 @@
     {
       "name": "igmi8fxa",
       "frequency": 1,
+      "cue_resp": [
+        "center_blue"
+      ],
       "responses": {
         "peck_left": {
           "p_punish": 1,
@@ -115,6 +130,9 @@
     {
       "name": "jkexyrd5",
       "frequency": 1,
+      "cue_resp": [
+        "center_blue"
+      ],
       "responses": {
         "peck_left": {
           "p_punish": 1,
@@ -136,6 +154,9 @@
     {
       "name": "l1a3ltpy",
       "frequency": 1,
+      "cue_resp": [
+        "left_blue"
+      ],
       "responses": {
         "peck_left": {
           "p_reward": 1,
@@ -157,6 +178,9 @@
     {
       "name": "p1mrfhop",
       "frequency": 1,
+      "cue_resp": [
+        "left_blue"
+      ],
       "responses": {
         "peck_left": {
           "p_reward": 1,
@@ -178,6 +202,9 @@
     {
       "name": "vekibwgj",
       "frequency": 1,
+      "cue_resp": [
+        "center_blue"
+      ],
       "responses": {
         "peck_left": {
           "p_punish": 1,
@@ -199,6 +226,9 @@
     {
       "name": "ztqee46x",
       "frequency": 1,
+      "cue_resp": [
+        "center_blue"
+      ],
       "responses": {
         "peck_left": {
           "p_punish": 1,
