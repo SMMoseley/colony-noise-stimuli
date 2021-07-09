@@ -2,17 +2,13 @@
   "parameters": {
     "correct_timeout": false,
     "rand_replace": false,
-    "init_key": "peck_left",
-    "feed_duration": 1000
+    "init_key": "peck_right"
   },
   "stimulus_root": "/root/colony-noise-stimuli/stimuli",
   "stimuli": [
     {
       "name": "0oq8ifcb",
       "frequency": 1,
-      "cue_resp": [
-        "left_blue"
-      ],
       "responses": {
         "peck_left": {
           "p_reward": 1,
@@ -29,14 +25,14 @@
         "timeout": {
           "correct": false
         }
-      }
+      },
+      "cue_resp": [
+        "left_blue"
+      ]
     },
     {
       "name": "9ex2k0dy",
       "frequency": 1,
-      "cue_resp": [
-        "left_blue"
-      ],
       "responses": {
         "peck_left": {
           "p_reward": 1,
@@ -53,14 +49,14 @@
         "timeout": {
           "correct": false
         }
-      }
+      },
+      "cue_resp": [
+        "left_blue"
+      ]
     },
     {
       "name": "c95zqjxq",
       "frequency": 1,
-      "cue_resp": [
-        "left_blue"
-      ],
       "responses": {
         "peck_left": {
           "p_reward": 1,
@@ -77,14 +73,14 @@
         "timeout": {
           "correct": false
         }
-      }
+      },
+      "cue_resp": [
+        "left_blue"
+      ]
     },
     {
       "name": "g29wxi4q",
       "frequency": 1,
-      "cue_resp": [
-        "center_blue"
-      ],
       "responses": {
         "peck_left": {
           "p_punish": 1,
@@ -101,14 +97,14 @@
         "timeout": {
           "correct": false
         }
-      }
+      },
+      "cue_resp": [
+        "center_blue"
+      ]
     },
     {
       "name": "igmi8fxa",
       "frequency": 1,
-      "cue_resp": [
-        "center_blue"
-      ],
       "responses": {
         "peck_left": {
           "p_punish": 1,
@@ -125,14 +121,14 @@
         "timeout": {
           "correct": false
         }
-      }
+      },
+      "cue_resp": [
+        "center_blue"
+      ]
     },
     {
       "name": "jkexyrd5",
       "frequency": 1,
-      "cue_resp": [
-        "center_blue"
-      ],
       "responses": {
         "peck_left": {
           "p_punish": 1,
@@ -149,14 +145,14 @@
         "timeout": {
           "correct": false
         }
-      }
+      },
+      "cue_resp": [
+        "center_blue"
+      ]
     },
     {
       "name": "l1a3ltpy",
       "frequency": 1,
-      "cue_resp": [
-        "left_blue"
-      ],
       "responses": {
         "peck_left": {
           "p_reward": 1,
@@ -173,14 +169,14 @@
         "timeout": {
           "correct": false
         }
-      }
+      },
+      "cue_resp": [
+        "left_blue"
+      ]
     },
     {
       "name": "p1mrfhop",
       "frequency": 1,
-      "cue_resp": [
-        "left_blue"
-      ],
       "responses": {
         "peck_left": {
           "p_reward": 1,
@@ -197,14 +193,14 @@
         "timeout": {
           "correct": false
         }
-      }
+      },
+      "cue_resp": [
+        "left_blue"
+      ]
     },
     {
       "name": "vekibwgj",
       "frequency": 1,
-      "cue_resp": [
-        "center_blue"
-      ],
       "responses": {
         "peck_left": {
           "p_punish": 1,
@@ -221,14 +217,14 @@
         "timeout": {
           "correct": false
         }
-      }
+      },
+      "cue_resp": [
+        "center_blue"
+      ]
     },
     {
       "name": "ztqee46x",
       "frequency": 1,
-      "cue_resp": [
-        "center_blue"
-      ],
       "responses": {
         "peck_left": {
           "p_punish": 1,
@@ -245,7 +241,10 @@
         "timeout": {
           "correct": false
         }
-      }
+      },
+      "cue_resp": [
+        "center_blue"
+      ]
     }
   ]
 }

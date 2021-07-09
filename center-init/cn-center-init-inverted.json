@@ -2,8 +2,7 @@
   "parameters": {
     "correct_timeout": false,
     "rand_replace": false,
-    "init_key": "peck_left",
-    "feed_duration": 1000
+    "init_key": "peck_center"
   },
   "stimulus_root": "/root/colony-noise-stimuli/stimuli",
   "stimuli": [
@@ -16,29 +15,32 @@
           "correct": false
         },
         "peck_center": {
-          "p_reward": 1,
-          "correct": true
-        },
-        "peck_right": {
           "p_punish": 1,
           "correct": false
+        },
+        "peck_right": {
+          "p_reward": 1,
+          "correct": true
         },
         "timeout": {
           "correct": false
         }
-      }
+      },
+      "cue_resp": [
+        "right_blue"
+      ]
     },
     {
       "name": "9ex2k0dy",
       "frequency": 1,
       "responses": {
         "peck_left": {
-          "p_punish": 1,
-          "correct": false
-        },
-        "peck_center": {
           "p_reward": 1,
           "correct": true
+        },
+        "peck_center": {
+          "p_punish": 1,
+          "correct": false
         },
         "peck_right": {
           "p_punish": 1,
@@ -47,7 +49,10 @@
         "timeout": {
           "correct": false
         }
-      }
+      },
+      "cue_resp": [
+        "left_blue"
+      ]
     },
     {
       "name": "c95zqjxq",
@@ -58,17 +63,20 @@
           "correct": false
         },
         "peck_center": {
-          "p_reward": 1,
-          "correct": true
-        },
-        "peck_right": {
           "p_punish": 1,
           "correct": false
+        },
+        "peck_right": {
+          "p_reward": 1,
+          "correct": true
         },
         "timeout": {
           "correct": false
         }
-      }
+      },
+      "cue_resp": [
+        "right_blue"
+      ]
     },
     {
       "name": "g29wxi4q",
@@ -89,28 +97,34 @@
         "timeout": {
           "correct": false
         }
-      }
+      },
+      "cue_resp": [
+        "left_blue"
+      ]
     },
     {
       "name": "igmi8fxa",
       "frequency": 1,
       "responses": {
         "peck_left": {
-          "p_reward": 1,
-          "correct": true
+          "p_punish": 1,
+          "correct": false
         },
         "peck_center": {
           "p_punish": 1,
           "correct": false
         },
         "peck_right": {
-          "p_punish": 1,
-          "correct": false
+          "p_reward": 1,
+          "correct": true
         },
         "timeout": {
           "correct": false
         }
-      }
+      },
+      "cue_resp": [
+        "right_blue"
+      ]
     },
     {
       "name": "jkexyrd5",
@@ -131,19 +145,22 @@
         "timeout": {
           "correct": false
         }
-      }
+      },
+      "cue_resp": [
+        "left_blue"
+      ]
     },
     {
       "name": "l1a3ltpy",
       "frequency": 1,
       "responses": {
         "peck_left": {
-          "p_punish": 1,
-          "correct": false
-        },
-        "peck_center": {
           "p_reward": 1,
           "correct": true
+        },
+        "peck_center": {
+          "p_punish": 1,
+          "correct": false
         },
         "peck_right": {
           "p_punish": 1,
@@ -152,7 +169,10 @@
         "timeout": {
           "correct": false
         }
-      }
+      },
+      "cue_resp": [
+        "left_blue"
+      ]
     },
     {
       "name": "p1mrfhop",
@@ -163,17 +183,20 @@
           "correct": false
         },
         "peck_center": {
-          "p_reward": 1,
-          "correct": true
-        },
-        "peck_right": {
           "p_punish": 1,
           "correct": false
+        },
+        "peck_right": {
+          "p_reward": 1,
+          "correct": true
         },
         "timeout": {
           "correct": false
         }
-      }
+      },
+      "cue_resp": [
+        "right_blue"
+      ]
     },
     {
       "name": "vekibwgj",
@@ -194,28 +217,34 @@
         "timeout": {
           "correct": false
         }
-      }
+      },
+      "cue_resp": [
+        "left_blue"
+      ]
     },
     {
       "name": "ztqee46x",
       "frequency": 1,
       "responses": {
         "peck_left": {
-          "p_reward": 1,
-          "correct": true
+          "p_punish": 1,
+          "correct": false
         },
         "peck_center": {
           "p_punish": 1,
           "correct": false
         },
         "peck_right": {
-          "p_punish": 1,
-          "correct": false
+          "p_reward": 1,
+          "correct": true
         },
         "timeout": {
           "correct": false
         }
-      }
+      },
+      "cue_resp": [
+        "right_blue"
+      ]
     }
   ]
 }
