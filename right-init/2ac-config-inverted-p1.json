@@ -2,7 +2,7 @@
   "parameters": {
     "correct_timeout": false,
     "rand_replace": false,
-    "init_key": "peck_right"
+    "init_position": "peck_right"
   },
   "stimulus_root": "/root/colony-noise-stimuli/stimuli",
   "stimuli": [

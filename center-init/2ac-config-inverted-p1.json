@@ -2,7 +2,7 @@
   "parameters": {
     "correct_timeout": false,
     "rand_replace": false,
-    "init_key": "peck_center"
+    "init_position": "peck_center"
   },
   "stimulus_root": "/root/colony-noise-stimuli/stimuli",
   "stimuli": [
@@ -11,23 +11,23 @@
       "frequency": 1,
       "responses": {
         "peck_left": {
-          "p_reward": 1,
-          "correct": true
+          "p_punish": 1,
+          "correct": false
         },
         "peck_center": {
           "p_punish": 1,
           "correct": false
         },
         "peck_right": {
-          "p_punish": 1,
-          "correct": false
+          "p_reward": 1,
+          "correct": true
         },
         "timeout": {
           "correct": false
         }
       },
       "cue_resp": [
-        "left_blue"
+        "right_blue"
       ]
     },
     {
@@ -35,23 +35,23 @@
       "frequency": 1,
       "responses": {
         "peck_left": {
-          "p_punish": 1,
-          "correct": false
+          "p_reward": 1,
+          "correct": true
         },
         "peck_center": {
           "p_punish": 1,
           "correct": false
         },
         "peck_right": {
-          "p_reward": 1,
-          "correct": true
+          "p_punish": 1,
+          "correct": false
         },
         "timeout": {
           "correct": false
         }
       },
       "cue_resp": [
-        "right_blue"
+        "left_blue"
       ]
     },
     {
@@ -59,23 +59,23 @@
       "frequency": 1,
       "responses": {
         "peck_left": {
-          "p_reward": 1,
-          "correct": true
+          "p_punish": 1,
+          "correct": false
         },
         "peck_center": {
           "p_punish": 1,
           "correct": false
         },
         "peck_right": {
-          "p_punish": 1,
-          "correct": false
+          "p_reward": 1,
+          "correct": true
         },
         "timeout": {
           "correct": false
         }
       },
       "cue_resp": [
-        "left_blue"
+        "right_blue"
       ]
     },
     {
@@ -83,23 +83,23 @@
       "frequency": 1,
       "responses": {
         "peck_left": {
-          "p_punish": 1,
-          "correct": false
+          "p_reward": 1,
+          "correct": true
         },
         "peck_center": {
           "p_punish": 1,
           "correct": false
         },
         "peck_right": {
-          "p_reward": 1,
-          "correct": true
+          "p_punish": 1,
+          "correct": false
         },
         "timeout": {
           "correct": false
         }
       },
       "cue_resp": [
-        "right_blue"
+        "left_blue"
       ]
     },
     {
@@ -107,23 +107,23 @@
       "frequency": 1,
       "responses": {
         "peck_left": {
-          "p_reward": 1,
-          "correct": true
+          "p_punish": 1,
+          "correct": false
         },
         "peck_center": {
           "p_punish": 1,
           "correct": false
         },
         "peck_right": {
-          "p_punish": 1,
-          "correct": false
+          "p_reward": 1,
+          "correct": true
         },
         "timeout": {
           "correct": false
         }
       },
       "cue_resp": [
-        "left_blue"
+        "right_blue"
       ]
     },
     {
@@ -131,23 +131,23 @@
       "frequency": 1,
       "responses": {
         "peck_left": {
-          "p_punish": 1,
-          "correct": false
+          "p_reward": 1,
+          "correct": true
         },
         "peck_center": {
           "p_punish": 1,
           "correct": false
         },
         "peck_right": {
-          "p_reward": 1,
-          "correct": true
+          "p_punish": 1,
+          "correct": false
         },
         "timeout": {
           "correct": false
         }
       },
       "cue_resp": [
-        "right_blue"
+        "left_blue"
       ]
     },
     {
@@ -155,23 +155,23 @@
       "frequency": 1,
       "responses": {
         "peck_left": {
-          "p_punish": 1,
-          "correct": false
+          "p_reward": 1,
+          "correct": true
         },
         "peck_center": {
           "p_punish": 1,
           "correct": false
         },
         "peck_right": {
-          "p_reward": 1,
-          "correct": true
+          "p_punish": 1,
+          "correct": false
         },
         "timeout": {
           "correct": false
         }
       },
       "cue_resp": [
-        "right_blue"
+        "left_blue"
       ]
     },
     {
@@ -179,30 +179,6 @@
       "frequency": 1,
       "responses": {
         "peck_left": {
-          "p_reward": 1,
-          "correct": true
-        },
-        "peck_center": {
-          "p_punish": 1,
-          "correct": false
-        },
-        "peck_right": {
-          "p_punish": 1,
-          "correct": false
-        },
-        "timeout": {
-          "correct": false
-        }
-      },
-      "cue_resp": [
-        "left_blue"
-      ]
-    },
-    {
-      "name": "vekibwgj",
-      "frequency": 1,
-      "responses": {
-        "peck_left": {
           "p_punish": 1,
           "correct": false
         },
@@ -223,7 +199,7 @@
       ]
     },
     {
-      "name": "ztqee46x",
+      "name": "vekibwgj",
       "frequency": 1,
       "responses": {
         "peck_left": {
@@ -244,6 +220,30 @@
       },
       "cue_resp": [
         "left_blue"
+      ]
+    },
+    {
+      "name": "ztqee46x",
+      "frequency": 1,
+      "responses": {
+        "peck_left": {
+          "p_punish": 1,
+          "correct": false
+        },
+        "peck_center": {
+          "p_punish": 1,
+          "correct": false
+        },
+        "peck_right": {
+          "p_reward": 1,
+          "correct": true
+        },
+        "timeout": {
+          "correct": false
+        }
+      },
+      "cue_resp": [
+        "right_blue"
       ]
     }
   ]
