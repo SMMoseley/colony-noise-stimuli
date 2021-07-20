@@ -26,6 +26,54 @@
           "correct": false
         }
       },
+      "category": "cue_lights",
+      "cue_resp": [
+        "center_blue"
+      ]
+    },
+    {
+      "name": "0oq8ifcb",
+      "frequency": 1,
+      "responses": {
+        "peck_left": {
+          "p_punish": 1,
+          "correct": false
+        },
+        "peck_center": {
+          "p_reward": 1,
+          "correct": true
+        },
+        "peck_right": {
+          "p_punish": 1,
+          "correct": false
+        },
+        "timeout": {
+          "correct": false
+        }
+      },
+      "category": "no_cue_lights"
+    },
+    {
+      "name": "9ex2k0dy",
+      "frequency": 1,
+      "responses": {
+        "peck_left": {
+          "p_punish": 1,
+          "correct": false
+        },
+        "peck_center": {
+          "p_reward": 1,
+          "correct": true
+        },
+        "peck_right": {
+          "p_punish": 1,
+          "correct": false
+        },
+        "timeout": {
+          "correct": false
+        }
+      },
+      "category": "cue_lights",
       "cue_resp": [
         "center_blue"
       ]
@@ -50,6 +98,29 @@
           "correct": false
         }
       },
+      "category": "no_cue_lights"
+    },
+    {
+      "name": "c95zqjxq",
+      "frequency": 1,
+      "responses": {
+        "peck_left": {
+          "p_punish": 1,
+          "correct": false
+        },
+        "peck_center": {
+          "p_reward": 1,
+          "correct": true
+        },
+        "peck_right": {
+          "p_punish": 1,
+          "correct": false
+        },
+        "timeout": {
+          "correct": false
+        }
+      },
+      "category": "cue_lights",
       "cue_resp": [
         "center_blue"
       ]
@@ -74,8 +145,31 @@
           "correct": false
         }
       },
+      "category": "no_cue_lights"
+    },
+    {
+      "name": "g29wxi4q",
+      "frequency": 1,
+      "responses": {
+        "peck_left": {
+          "p_reward": 1,
+          "correct": true
+        },
+        "peck_center": {
+          "p_punish": 1,
+          "correct": false
+        },
+        "peck_right": {
+          "p_punish": 1,
+          "correct": false
+        },
+        "timeout": {
+          "correct": false
+        }
+      },
+      "category": "cue_lights",
       "cue_resp": [
-        "center_blue"
+        "left_blue"
       ]
     },
     {
@@ -98,6 +192,29 @@
           "correct": false
         }
       },
+      "category": "no_cue_lights"
+    },
+    {
+      "name": "igmi8fxa",
+      "frequency": 1,
+      "responses": {
+        "peck_left": {
+          "p_reward": 1,
+          "correct": true
+        },
+        "peck_center": {
+          "p_punish": 1,
+          "correct": false
+        },
+        "peck_right": {
+          "p_punish": 1,
+          "correct": false
+        },
+        "timeout": {
+          "correct": false
+        }
+      },
+      "category": "cue_lights",
       "cue_resp": [
         "left_blue"
       ]
@@ -122,6 +239,29 @@
           "correct": false
         }
       },
+      "category": "no_cue_lights"
+    },
+    {
+      "name": "jkexyrd5",
+      "frequency": 1,
+      "responses": {
+        "peck_left": {
+          "p_reward": 1,
+          "correct": true
+        },
+        "peck_center": {
+          "p_punish": 1,
+          "correct": false
+        },
+        "peck_right": {
+          "p_punish": 1,
+          "correct": false
+        },
+        "timeout": {
+          "correct": false
+        }
+      },
+      "category": "cue_lights",
       "cue_resp": [
         "left_blue"
       ]
@@ -146,8 +286,31 @@
           "correct": false
         }
       },
+      "category": "no_cue_lights"
+    },
+    {
+      "name": "l1a3ltpy",
+      "frequency": 1,
+      "responses": {
+        "peck_left": {
+          "p_punish": 1,
+          "correct": false
+        },
+        "peck_center": {
+          "p_reward": 1,
+          "correct": true
+        },
+        "peck_right": {
+          "p_punish": 1,
+          "correct": false
+        },
+        "timeout": {
+          "correct": false
+        }
+      },
+      "category": "cue_lights",
       "cue_resp": [
-        "left_blue"
+        "center_blue"
       ]
     },
     {
@@ -170,6 +333,29 @@
           "correct": false
         }
       },
+      "category": "no_cue_lights"
+    },
+    {
+      "name": "p1mrfhop",
+      "frequency": 1,
+      "responses": {
+        "peck_left": {
+          "p_punish": 1,
+          "correct": false
+        },
+        "peck_center": {
+          "p_reward": 1,
+          "correct": true
+        },
+        "peck_right": {
+          "p_punish": 1,
+          "correct": false
+        },
+        "timeout": {
+          "correct": false
+        }
+      },
+      "category": "cue_lights",
       "cue_resp": [
         "center_blue"
       ]
@@ -194,8 +380,31 @@
           "correct": false
         }
       },
+      "category": "no_cue_lights"
+    },
+    {
+      "name": "vekibwgj",
+      "frequency": 1,
+      "responses": {
+        "peck_left": {
+          "p_reward": 1,
+          "correct": true
+        },
+        "peck_center": {
+          "p_punish": 1,
+          "correct": false
+        },
+        "peck_right": {
+          "p_punish": 1,
+          "correct": false
+        },
+        "timeout": {
+          "correct": false
+        }
+      },
+      "category": "cue_lights",
       "cue_resp": [
-        "center_blue"
+        "left_blue"
       ]
     },
     {
@@ -218,6 +427,29 @@
           "correct": false
         }
       },
+      "category": "no_cue_lights"
+    },
+    {
+      "name": "ztqee46x",
+      "frequency": 1,
+      "responses": {
+        "peck_left": {
+          "p_reward": 1,
+          "correct": true
+        },
+        "peck_center": {
+          "p_punish": 1,
+          "correct": false
+        },
+        "peck_right": {
+          "p_punish": 1,
+          "correct": false
+        },
+        "timeout": {
+          "correct": false
+        }
+      },
+      "category": "cue_lights",
       "cue_resp": [
         "left_blue"
       ]
@@ -242,9 +474,7 @@
           "correct": false
         }
       },
-      "cue_resp": [
-        "left_blue"
-      ]
+      "category": "no_cue_lights"
     }
   ]
 }
