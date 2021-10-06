@@ -23,9 +23,11 @@
           "correct": false
         },
         "timeout": {
+          "p_punish": 1,
           "correct": false
         }
       },
+      "category": "cue_lights",
       "cue_resp": [
         "left_blue"
       ]
@@ -47,9 +49,11 @@
           "correct": true
         },
         "timeout": {
+          "p_punish": 1,
           "correct": false
         }
       },
+      "category": "cue_lights",
       "cue_resp": [
         "right_blue"
       ]
@@ -71,9 +75,11 @@
           "correct": false
         },
         "timeout": {
+          "p_punish": 1,
           "correct": false
         }
       },
+      "category": "cue_lights",
       "cue_resp": [
         "left_blue"
       ]
@@ -95,9 +101,11 @@
           "correct": true
         },
         "timeout": {
+          "p_punish": 1,
           "correct": false
         }
       },
+      "category": "cue_lights",
       "cue_resp": [
         "right_blue"
       ]
@@ -119,9 +127,11 @@
           "correct": false
         },
         "timeout": {
+          "p_punish": 1,
           "correct": false
         }
       },
+      "category": "cue_lights",
       "cue_resp": [
         "left_blue"
       ]
@@ -143,9 +153,11 @@
           "correct": true
         },
         "timeout": {
+          "p_punish": 1,
           "correct": false
         }
       },
+      "category": "cue_lights",
       "cue_resp": [
         "right_blue"
       ]
@@ -167,9 +179,11 @@
           "correct": true
         },
         "timeout": {
+          "p_punish": 1,
           "correct": false
         }
       },
+      "category": "cue_lights",
       "cue_resp": [
         "right_blue"
       ]
@@ -191,9 +205,11 @@
           "correct": false
         },
         "timeout": {
+          "p_punish": 1,
           "correct": false
         }
       },
+      "category": "cue_lights",
       "cue_resp": [
         "left_blue"
       ]
@@ -215,9 +231,11 @@
           "correct": true
         },
         "timeout": {
+          "p_punish": 1,
           "correct": false
         }
       },
+      "category": "cue_lights",
       "cue_resp": [
         "right_blue"
       ]
@@ -239,9 +257,11 @@
           "correct": false
         },
         "timeout": {
+          "p_punish": 1,
           "correct": false
         }
       },
+      "category": "cue_lights",
       "cue_resp": [
         "left_blue"
       ]

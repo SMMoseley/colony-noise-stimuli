@@ -23,9 +23,11 @@
           "correct": true
         },
         "timeout": {
+          "p_punish": 1,
           "correct": false
         }
-      }
+      },
+      "category": "no_cue_lights"
     },
     {
       "name": "9ex2k0dy",
@@ -44,9 +46,11 @@
           "correct": false
         },
         "timeout": {
+          "p_punish": 1,
           "correct": false
         }
-      }
+      },
+      "category": "no_cue_lights"
     },
     {
       "name": "c95zqjxq",
@@ -65,9 +69,11 @@
           "correct": true
         },
         "timeout": {
+          "p_punish": 1,
           "correct": false
         }
-      }
+      },
+      "category": "no_cue_lights"
     },
     {
       "name": "g29wxi4q",
@@ -86,9 +92,11 @@
           "correct": false
         },
         "timeout": {
+          "p_punish": 1,
           "correct": false
         }
-      }
+      },
+      "category": "no_cue_lights"
     },
     {
       "name": "igmi8fxa",
@@ -107,9 +115,11 @@
           "correct": true
         },
         "timeout": {
+          "p_punish": 1,
           "correct": false
         }
-      }
+      },
+      "category": "no_cue_lights"
     },
     {
       "name": "jkexyrd5",
@@ -128,9 +138,11 @@
           "correct": false
         },
         "timeout": {
+          "p_punish": 1,
           "correct": false
         }
-      }
+      },
+      "category": "no_cue_lights"
     },
     {
       "name": "l1a3ltpy",
@@ -149,9 +161,11 @@
           "correct": false
         },
         "timeout": {
+          "p_punish": 1,
           "correct": false
         }
-      }
+      },
+      "category": "no_cue_lights"
     },
     {
       "name": "p1mrfhop",
@@ -170,9 +184,11 @@
           "correct": true
         },
         "timeout": {
+          "p_punish": 1,
           "correct": false
         }
-      }
+      },
+      "category": "no_cue_lights"
     },
     {
       "name": "vekibwgj",
@@ -191,9 +207,11 @@
           "correct": false
         },
         "timeout": {
+          "p_punish": 1,
           "correct": false
         }
-      }
+      },
+      "category": "no_cue_lights"
     },
     {
       "name": "ztqee46x",
@@ -212,9 +230,11 @@
           "correct": true
         },
         "timeout": {
+          "p_punish": 1,
           "correct": false
         }
-      }
+      },
+      "category": "no_cue_lights"
     }
   ]
 }

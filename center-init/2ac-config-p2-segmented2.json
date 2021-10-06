@@ -1,0 +1,56 @@
+{
+  "parameters": {
+    "correct_timeout": false,
+    "rand_replace": false,
+    "init_position": "peck_center"
+  },
+  "stimulus_root": "/root/colony-noise-stimuli/stimuli",
+  "stimuli": [
+    {
+      "name": "0oq8ifcb",
+      "frequency": 1,
+      "responses": {
+        "peck_left": {
+          "p_reward": 1,
+          "correct": true
+        },
+        "peck_center": {
+          "p_punish": 1,
+          "correct": false
+        },
+        "peck_right": {
+          "p_punish": 1,
+          "correct": false
+        },
+        "timeout": {
+          "p_punish": 1,
+          "correct": false
+        }
+      },
+      "category": "no_cue_lights"
+    },
+    {
+      "name": "9ex2k0dy",
+      "frequency": 1,
+      "responses": {
+        "peck_left": {
+          "p_punish": 1,
+          "correct": false
+        },
+        "peck_center": {
+          "p_punish": 1,
+          "correct": false
+        },
+        "peck_right": {
+          "p_reward": 1,
+          "correct": true
+        },
+        "timeout": {
+          "p_punish": 1,
+          "correct": false
+        }
+      },
+      "category": "no_cue_lights"
+    }
+  ]
+}

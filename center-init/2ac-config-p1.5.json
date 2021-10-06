@@ -23,6 +23,7 @@
           "correct": false
         },
         "timeout": {
+          "p_punish": 1,
           "correct": false
         }
       },
@@ -48,6 +49,7 @@
           "correct": false
         },
         "timeout": {
+          "p_punish": 1,
           "correct": false
         }
       },
@@ -70,6 +72,7 @@
           "correct": true
         },
         "timeout": {
+          "p_punish": 1,
           "correct": false
         }
       },
@@ -95,6 +98,7 @@
           "correct": true
         },
         "timeout": {
+          "p_punish": 1,
           "correct": false
         }
       },
@@ -117,6 +121,7 @@
           "correct": false
         },
         "timeout": {
+          "p_punish": 1,
           "correct": false
         }
       },
@@ -142,6 +147,7 @@
           "correct": false
         },
         "timeout": {
+          "p_punish": 1,
           "correct": false
         }
       },
@@ -164,6 +170,7 @@
           "correct": true
         },
         "timeout": {
+          "p_punish": 1,
           "correct": false
         }
       },
@@ -189,6 +196,7 @@
           "correct": true
         },
         "timeout": {
+          "p_punish": 1,
           "correct": false
         }
       },
@@ -211,6 +219,7 @@
           "correct": false
         },
         "timeout": {
+          "p_punish": 1,
           "correct": false
         }
       },
@@ -236,6 +245,7 @@
           "correct": false
         },
         "timeout": {
+          "p_punish": 1,
           "correct": false
         }
       },
@@ -258,6 +268,7 @@
           "correct": true
         },
         "timeout": {
+          "p_punish": 1,
           "correct": false
         }
       },
@@ -283,6 +294,7 @@
           "correct": true
         },
         "timeout": {
+          "p_punish": 1,
           "correct": false
         }
       },
@@ -305,6 +317,7 @@
           "correct": true
         },
         "timeout": {
+          "p_punish": 1,
           "correct": false
         }
       },
@@ -330,6 +343,7 @@
           "correct": true
         },
         "timeout": {
+          "p_punish": 1,
           "correct": false
         }
       },
@@ -352,6 +366,7 @@
           "correct": false
         },
         "timeout": {
+          "p_punish": 1,
           "correct": false
         }
       },
@@ -377,6 +392,7 @@
           "correct": false
         },
         "timeout": {
+          "p_punish": 1,
           "correct": false
         }
       },
@@ -399,6 +415,7 @@
           "correct": true
         },
         "timeout": {
+          "p_punish": 1,
           "correct": false
         }
       },
@@ -424,6 +441,7 @@
           "correct": true
         },
         "timeout": {
+          "p_punish": 1,
           "correct": false
         }
       },
@@ -446,6 +464,7 @@
           "correct": false
         },
         "timeout": {
+          "p_punish": 1,
           "correct": false
         }
       },
@@ -471,6 +490,7 @@
           "correct": false
         },
         "timeout": {
+          "p_punish": 1,
           "correct": false
         }
       },
