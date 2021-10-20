@@ -5,7 +5,7 @@ config:
     rand_replace: false
     init_position: peck_center
   output_config_name: 2ac-config
-  stimulus_root: /root/colony-noise-stimuli/stimuli
+  stimulus_root: /root/colony-noise-stimuli/stimuli/clean_stim
   keys:
     - peck_left
     - peck_center
@@ -14,9 +14,9 @@ config:
     - peck_left
     - peck_right
 stimuli:
-   - 0oq8ifcb
-   - 9ex2k0dy
-   - c95zqjxq
-   - g29wxi4q
-   - igmi8fxa
-   - jkexyrd5
+   - 0oq8ifcb_30
+   - 9ex2k0dy_30
+   - c95zqjxq_30
+   - g29wxi4q_30
+   - igmi8fxa_30
+   - jkexyrd5_30

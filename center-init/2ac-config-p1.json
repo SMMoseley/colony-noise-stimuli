@@ -4,10 +4,10 @@
     "rand_replace": false,
     "init_position": "peck_center"
   },
-  "stimulus_root": "/root/colony-noise-stimuli/stimuli",
+  "stimulus_root": "/root/colony-noise-stimuli/stimuli/clean_stim/",
   "stimuli": [
     {
-      "name": "0oq8ifcb",
+      "name": "0oq8ifcb_30",
       "frequency": 1,
       "responses": {
         "peck_left": {
@@ -33,7 +33,7 @@
       ]
     },
     {
-      "name": "9ex2k0dy",
+      "name": "9ex2k0dy_30",
       "frequency": 1,
       "responses": {
         "peck_left": {
@@ -59,7 +59,7 @@
       ]
     },
     {
-      "name": "c95zqjxq",
+      "name": "c95zqjxq_30",
       "frequency": 1,
       "responses": {
         "peck_left": {
@@ -85,7 +85,7 @@
       ]
     },
     {
-      "name": "g29wxi4q",
+      "name": "g29wxi4q_30",
       "frequency": 1,
       "responses": {
         "peck_left": {
@@ -111,7 +111,7 @@
       ]
     },
     {
-      "name": "igmi8fxa",
+      "name": "igmi8fxa_30",
       "frequency": 1,
       "responses": {
         "peck_left": {
@@ -137,7 +137,7 @@
       ]
     },
     {
-      "name": "jkexyrd5",
+      "name": "jkexyrd5_30",
       "frequency": 1,
       "responses": {
         "peck_left": {
@@ -163,7 +163,7 @@
       ]
     },
     {
-      "name": "l1a3ltpy",
+      "name": "l1a3ltpy_30",
       "frequency": 1,
       "responses": {
         "peck_left": {
@@ -189,7 +189,7 @@
       ]
     },
     {
-      "name": "p1mrfhop",
+      "name": "p1mrfhop_30",
       "frequency": 1,
       "responses": {
         "peck_left": {
@@ -215,7 +215,7 @@
       ]
     },
     {
-      "name": "vekibwgj",
+      "name": "vekibwgj_30",
       "frequency": 1,
       "responses": {
         "peck_left": {
@@ -241,7 +241,7 @@
       ]
     },
     {
-      "name": "ztqee46x",
+      "name": "ztqee46x_30",
       "frequency": 1,
       "responses": {
         "peck_left": {
