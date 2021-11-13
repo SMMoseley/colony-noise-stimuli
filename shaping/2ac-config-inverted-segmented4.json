@@ -10,21 +10,21 @@
       "name": "0oq8ifcb_30",
       "frequency": 1,
       "responses": {
-        "peck_center": {
-          "p_punish": 1.0,
-          "correct": false
-        },
-        "timeout": {
-          "p_punish": 1.0,
-          "correct": false
-        },
         "peck_left": {
+          "p_punish": 1.0,
+          "correct": false
+        },
+        "peck_center": {
           "p_punish": 1.0,
           "correct": false
         },
         "peck_right": {
           "p_reward": 1.0,
           "correct": true
+        },
+        "timeout": {
+          "p_punish": 1.0,
+          "correct": false
         }
       },
       "category": "no_cue_lights"
@@ -41,11 +41,11 @@
           "p_punish": 1.0,
           "correct": false
         },
-        "timeout": {
+        "peck_right": {
           "p_punish": 1.0,
           "correct": false
         },
-        "peck_right": {
+        "timeout": {
           "p_punish": 1.0,
           "correct": false
         }
@@ -56,7 +56,11 @@
       "name": "c95zqjxq_30",
       "frequency": 1,
       "responses": {
-        "timeout": {
+        "peck_left": {
+          "p_punish": 1.0,
+          "correct": false
+        },
+        "peck_center": {
           "p_punish": 1.0,
           "correct": false
         },
@@ -64,11 +68,7 @@
           "p_reward": 1.0,
           "correct": true
         },
-        "peck_left": {
-          "p_punish": 1.0,
-          "correct": false
-        },
-        "peck_center": {
+        "timeout": {
           "p_punish": 1.0,
           "correct": false
         }
@@ -79,19 +79,19 @@
       "name": "g29wxi4q_30",
       "frequency": 1,
       "responses": {
-        "timeout": {
-          "p_punish": 1.0,
-          "correct": false
+        "peck_left": {
+          "p_reward": 1.0,
+          "correct": true
         },
         "peck_center": {
           "p_punish": 1.0,
           "correct": false
         },
-        "peck_left": {
-          "p_reward": 1.0,
-          "correct": true
-        },
         "peck_right": {
+          "p_punish": 1.0,
+          "correct": false
+        },
+        "timeout": {
           "p_punish": 1.0,
           "correct": false
         }

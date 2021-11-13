@@ -10,11 +10,7 @@
       "name": "0oq8ifcb_30",
       "frequency": 1,
       "responses": {
-        "peck_right": {
-          "p_reward": 1.0,
-          "correct": true
-        },
-        "timeout": {
+        "peck_left": {
           "p_punish": 1.0,
           "correct": false
         },
@@ -22,7 +18,11 @@
           "p_punish": 1.0,
           "correct": false
         },
-        "peck_left": {
+        "peck_right": {
+          "p_reward": 1.0,
+          "correct": true
+        },
+        "timeout": {
           "p_punish": 1.0,
           "correct": false
         }
@@ -33,19 +33,19 @@
       "name": "9ex2k0dy_30",
       "frequency": 1,
       "responses": {
-        "peck_center": {
-          "p_punish": 1.0,
-          "correct": false
-        },
         "peck_left": {
           "p_reward": 1.0,
           "correct": true
         },
-        "timeout": {
+        "peck_center": {
           "p_punish": 1.0,
           "correct": false
         },
         "peck_right": {
+          "p_punish": 1.0,
+          "correct": false
+        },
+        "timeout": {
           "p_punish": 1.0,
           "correct": false
         }
