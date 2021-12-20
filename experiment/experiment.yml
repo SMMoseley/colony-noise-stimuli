@@ -4,14 +4,14 @@ decide:
     correct_timeout: false
     rand_replace: true
     init_position: peck_center
-  output_config_name: 2ac-config
+  output_config_name: 2ac-experiment
   stimulus_root: /root/colony-noise-stimuli/stimuli/snr_stim/
   choices:
     - peck_left
     - peck_right
   stimuli_subsets:
-    - [0oq8ifcb, vekibwgj, g29wxi4q, l1a3ltpy]
-    - [ztqee46x, jkexyrd5, mrel2o09, w08e1crn]
+    - [0oq8ifcb, vekibwgj, ztqee46x, l1a3ltpy]
+    - [9ex2k0dy, jkexyrd5, c95zqjxq, igmi8fxa]
   include_background: true
 scenes:
   padding: 2.0
@@ -31,4 +31,4 @@ scenes:
     - ztqee46x
     - jkexyrd5
   background:
-    - h22zy3zp
+    - btwmt59w

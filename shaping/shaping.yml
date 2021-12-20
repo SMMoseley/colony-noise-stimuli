@@ -3,12 +3,16 @@ decide:
     correct_timeout: false
     rand_replace: true
     init_position: peck_center
-  output_config_name: 2ac-config
+  output_config_name: 2ac-shaping
   stimulus_root: /root/colony-noise-stimuli/stimuli/clean_stim/
   choices:
     - peck_left
     - peck_right
-  include_background: false
+  stimuli_subsets:
+    - [pmkimwop,  dhhon79k]
+    - [0oq8ifcb, vekibwgj, ztqee46x, l1a3ltpy]
+    - [9ex2k0dy, jkexyrd5, c95zqjxq, igmi8fxa]
+  include_background: false  
 scenes:
   padding: 2.0
   gap: 0.5
@@ -26,5 +30,7 @@ scenes:
     - 9ex2k0dy
     - ztqee46x
     - jkexyrd5
+    - pmkimwop
+    - dhhon79k
   background:
-    - h22zy3zp
+    - btwmt59w 
