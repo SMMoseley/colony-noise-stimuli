@@ -4,31 +4,35 @@ decide:
     correct_timeout: false
     rand_replace: true
     init_position: peck_center
-  output_config_name: 2ac-experiment
+  name_format: "2ac-config-segmented{background_dBFS}"
   stimulus_root: /root/colony-noise-stimuli/stimuli/snr_stim/
   choices:
     - peck_left
     - peck_right
   stimuli_subsets:
-    - [0oq8ifcb, vekibwgj, ztqee46x, l1a3ltpy]
-    - [9ex2k0dy, jkexyrd5, c95zqjxq, igmi8fxa]
-  include_background: true
-scenes:
-  padding: 2.0
-  gap: 0.5
-  ramp: 0.002
-  foreground-dBFS: [-30]
-  background-dBFS: [-20, -25, -30, -35, -40, -45, -50, -55, -60, -65, -100]
+    0: [0oq8ifcb, vekibwgj, ztqee46x, l1a3ltpy]
+    1: [9ex2k0dy, jkexyrd5, c95zqjxq, igmi8fxa]
+stimuli:
+  decisive_attribute: foreground
+  format: "{foreground}{foreground_dBFS}_{background}{background_dBFS}"
+  foreground_dBFS:
+    inclusive_less_than: true
+    values: [-30]
+  background_dBFS:
+    inclusive_less_than: true
+    values: [-20, -25, -30, -35, -40, -45, -50, -55, -60, -65, -100]
   foreground:
-    - g29wxi4q
-    - c95zqjxq
-    - vekibwgj
-    - 0oq8ifcb
-    - igmi8fxa
-    - p1mrfhop
-    - l1a3ltpy
-    - 9ex2k0dy
-    - ztqee46x
-    - jkexyrd5
+    values:
+      - g29wxi4q
+      - c95zqjxq
+      - vekibwgj
+      - 0oq8ifcb
+      - igmi8fxa
+      - p1mrfhop
+      - l1a3ltpy
+      - 9ex2k0dy
+      - ztqee46x
+      - jkexyrd5
   background:
-    - btwmt59w
+    values:
+      - btwmt59w
