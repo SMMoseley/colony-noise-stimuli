@@ -3,7 +3,7 @@ decide:
     correct_timeout: false
     rand_replace: true
     init_position: peck_center
-  name_format: "2ac-config"
+  name_format: "2ac-shaping"
   stimulus_root: /root/colony-noise-stimuli/stimuli/clean_stim/
   choices:
     - peck_left
@@ -13,16 +13,8 @@ stimuli:
   decisive_attribute: foreground
   foreground:
     values:
-      - g29wxi4q
-      - c95zqjxq
-      - vekibwgj
-      - 0oq8ifcb
-      - igmi8fxa
-      - p1mrfhop
-      - l1a3ltpy
-      - 9ex2k0dy
-      - ztqee46x
-      - jkexyrd5
+      - pmkimwop
+      - dhhon79k
   fg_db:
     values:
       - 30

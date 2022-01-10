@@ -10,8 +10,8 @@ decide:
     - peck_left
     - peck_right
   stimuli_subsets:
-    0: [0oq8ifcb, vekibwgj, g29wxi4q, l1a3ltpy]
-    1: [ztqee46x, jkexyrd5, mrel2o09, w08e1crn]
+    0: [0oq8ifcb, vekibwgj, ztqee46x, l1a3ltpy]
+    1: [9ex2k0dy, jkexyrd5, c95zqjxq, igmi8fxa]
 stimuli:
   decisive_attribute: foreground
   format: "{foreground}{foreground_dBFS}_{background}{background_dBFS}"
@@ -35,4 +35,4 @@ stimuli:
       - jkexyrd5
   background:
     values:
-      - h22zy3zp
+      - btwmt59w

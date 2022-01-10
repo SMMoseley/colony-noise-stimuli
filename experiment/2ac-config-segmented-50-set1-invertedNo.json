@@ -7,7 +7,30 @@
   "stimulus_root": "/root/colony-noise-stimuli/stimuli/snr_stim/",
   "stimuli": [
     {
-      "name": "ztqee46x-30_h22zy3zp-50",
+      "name": "c95zqjxq-30_btwmt59w-100",
+      "frequency": 1,
+      "responses": {
+        "peck_left": {
+          "p_punish": 1.0,
+          "correct": false
+        },
+        "peck_center": {
+          "p_punish": 1.0,
+          "correct": false
+        },
+        "peck_right": {
+          "p_reward": 1.0,
+          "correct": true
+        },
+        "timeout": {
+          "p_punish": 1.0,
+          "correct": false
+        }
+      },
+      "category": "no_cue_lights"
+    },
+    {
+      "name": "9ex2k0dy-30_btwmt59w-65",
       "frequency": 1,
       "responses": {
         "peck_left": {
@@ -30,7 +53,7 @@
       "category": "no_cue_lights"
     },
     {
-      "name": "jkexyrd5-30_h22zy3zp-50",
+      "name": "9ex2k0dy-30_btwmt59w-60",
       "frequency": 1,
       "responses": {
         "peck_left": {
@@ -53,7 +76,7 @@
       "category": "no_cue_lights"
     },
     {
-      "name": "ztqee46x-30_h22zy3zp-55",
+      "name": "jkexyrd5-30_btwmt59w-50",
       "frequency": 1,
       "responses": {
         "peck_left": {
@@ -76,7 +99,99 @@
       "category": "no_cue_lights"
     },
     {
-      "name": "jkexyrd5-30_h22zy3zp-55",
+      "name": "c95zqjxq-30_btwmt59w-50",
+      "frequency": 1,
+      "responses": {
+        "peck_left": {
+          "p_punish": 1.0,
+          "correct": false
+        },
+        "peck_center": {
+          "p_punish": 1.0,
+          "correct": false
+        },
+        "peck_right": {
+          "p_reward": 1.0,
+          "correct": true
+        },
+        "timeout": {
+          "p_punish": 1.0,
+          "correct": false
+        }
+      },
+      "category": "no_cue_lights"
+    },
+    {
+      "name": "c95zqjxq-30_btwmt59w-60",
+      "frequency": 1,
+      "responses": {
+        "peck_left": {
+          "p_punish": 1.0,
+          "correct": false
+        },
+        "peck_center": {
+          "p_punish": 1.0,
+          "correct": false
+        },
+        "peck_right": {
+          "p_reward": 1.0,
+          "correct": true
+        },
+        "timeout": {
+          "p_punish": 1.0,
+          "correct": false
+        }
+      },
+      "category": "no_cue_lights"
+    },
+    {
+      "name": "igmi8fxa-30_btwmt59w-55",
+      "frequency": 1,
+      "responses": {
+        "peck_left": {
+          "p_punish": 1.0,
+          "correct": false
+        },
+        "peck_center": {
+          "p_punish": 1.0,
+          "correct": false
+        },
+        "peck_right": {
+          "p_reward": 1.0,
+          "correct": true
+        },
+        "timeout": {
+          "p_punish": 1.0,
+          "correct": false
+        }
+      },
+      "category": "no_cue_lights"
+    },
+    {
+      "name": "igmi8fxa-30_btwmt59w-60",
+      "frequency": 1,
+      "responses": {
+        "peck_left": {
+          "p_punish": 1.0,
+          "correct": false
+        },
+        "peck_center": {
+          "p_punish": 1.0,
+          "correct": false
+        },
+        "peck_right": {
+          "p_reward": 1.0,
+          "correct": true
+        },
+        "timeout": {
+          "p_punish": 1.0,
+          "correct": false
+        }
+      },
+      "category": "no_cue_lights"
+    },
+    {
+      "name": "jkexyrd5-30_btwmt59w-65",
       "frequency": 1,
       "responses": {
         "peck_left": {
@@ -99,7 +214,7 @@
       "category": "no_cue_lights"
     },
     {
-      "name": "ztqee46x-30_h22zy3zp-60",
+      "name": "9ex2k0dy-30_btwmt59w-100",
       "frequency": 1,
       "responses": {
         "peck_left": {
@@ -122,7 +237,7 @@
       "category": "no_cue_lights"
     },
     {
-      "name": "jkexyrd5-30_h22zy3zp-60",
+      "name": "jkexyrd5-30_btwmt59w-100",
       "frequency": 1,
       "responses": {
         "peck_left": {
@@ -145,7 +260,30 @@
       "category": "no_cue_lights"
     },
     {
-      "name": "ztqee46x-30_h22zy3zp-65",
+      "name": "igmi8fxa-30_btwmt59w-65",
+      "frequency": 1,
+      "responses": {
+        "peck_left": {
+          "p_punish": 1.0,
+          "correct": false
+        },
+        "peck_center": {
+          "p_punish": 1.0,
+          "correct": false
+        },
+        "peck_right": {
+          "p_reward": 1.0,
+          "correct": true
+        },
+        "timeout": {
+          "p_punish": 1.0,
+          "correct": false
+        }
+      },
+      "category": "no_cue_lights"
+    },
+    {
+      "name": "9ex2k0dy-30_btwmt59w-55",
       "frequency": 1,
       "responses": {
         "peck_left": {
@@ -168,7 +306,7 @@
       "category": "no_cue_lights"
     },
     {
-      "name": "jkexyrd5-30_h22zy3zp-65",
+      "name": "jkexyrd5-30_btwmt59w-55",
       "frequency": 1,
       "responses": {
         "peck_left": {
@@ -191,7 +329,30 @@
       "category": "no_cue_lights"
     },
     {
-      "name": "ztqee46x-30_h22zy3zp-100",
+      "name": "igmi8fxa-30_btwmt59w-100",
+      "frequency": 1,
+      "responses": {
+        "peck_left": {
+          "p_punish": 1.0,
+          "correct": false
+        },
+        "peck_center": {
+          "p_punish": 1.0,
+          "correct": false
+        },
+        "peck_right": {
+          "p_reward": 1.0,
+          "correct": true
+        },
+        "timeout": {
+          "p_punish": 1.0,
+          "correct": false
+        }
+      },
+      "category": "no_cue_lights"
+    },
+    {
+      "name": "9ex2k0dy-30_btwmt59w-50",
       "frequency": 1,
       "responses": {
         "peck_left": {
@@ -214,7 +375,53 @@
       "category": "no_cue_lights"
     },
     {
-      "name": "jkexyrd5-30_h22zy3zp-100",
+      "name": "c95zqjxq-30_btwmt59w-65",
+      "frequency": 1,
+      "responses": {
+        "peck_left": {
+          "p_punish": 1.0,
+          "correct": false
+        },
+        "peck_center": {
+          "p_punish": 1.0,
+          "correct": false
+        },
+        "peck_right": {
+          "p_reward": 1.0,
+          "correct": true
+        },
+        "timeout": {
+          "p_punish": 1.0,
+          "correct": false
+        }
+      },
+      "category": "no_cue_lights"
+    },
+    {
+      "name": "c95zqjxq-30_btwmt59w-55",
+      "frequency": 1,
+      "responses": {
+        "peck_left": {
+          "p_punish": 1.0,
+          "correct": false
+        },
+        "peck_center": {
+          "p_punish": 1.0,
+          "correct": false
+        },
+        "peck_right": {
+          "p_reward": 1.0,
+          "correct": true
+        },
+        "timeout": {
+          "p_punish": 1.0,
+          "correct": false
+        }
+      },
+      "category": "no_cue_lights"
+    },
+    {
+      "name": "jkexyrd5-30_btwmt59w-60",
       "frequency": 1,
       "responses": {
         "peck_left": {
@@ -228,6 +435,29 @@
         "peck_right": {
           "p_punish": 1.0,
           "correct": false
+        },
+        "timeout": {
+          "p_punish": 1.0,
+          "correct": false
+        }
+      },
+      "category": "no_cue_lights"
+    },
+    {
+      "name": "igmi8fxa-30_btwmt59w-50",
+      "frequency": 1,
+      "responses": {
+        "peck_left": {
+          "p_punish": 1.0,
+          "correct": false
+        },
+        "peck_center": {
+          "p_punish": 1.0,
+          "correct": false
+        },
+        "peck_right": {
+          "p_reward": 1.0,
+          "correct": true
         },
         "timeout": {
           "p_punish": 1.0,
