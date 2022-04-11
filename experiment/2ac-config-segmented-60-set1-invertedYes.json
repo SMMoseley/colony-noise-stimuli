@@ -7,95 +7,7 @@
   "stimulus_root": "/root/colony-noise-stimuli/stimuli/snr_stim/",
   "stimuli": [
     {
-      "name": "9ex2k0dy-30_btwmt59w4-65",
-      "frequency": 1,
-      "responses": {
-        "peck_left": {
-          "p_punish": 1.0,
-          "correct": false
-        },
-        "peck_center": {
-          "p_punish": 1.0,
-          "correct": false
-        },
-        "peck_right": {
-          "p_reward": 1.0,
-          "correct": true
-        },
-        "timeout": {
-          "p_punish": 1.0,
-          "correct": false
-        }
-      }
-    },
-    {
-      "name": "jkexyrd5-30_btwmt59w2-60",
-      "frequency": 1,
-      "responses": {
-        "peck_left": {
-          "p_punish": 1.0,
-          "correct": false
-        },
-        "peck_center": {
-          "p_punish": 1.0,
-          "correct": false
-        },
-        "peck_right": {
-          "p_reward": 1.0,
-          "correct": true
-        },
-        "timeout": {
-          "p_punish": 1.0,
-          "correct": false
-        }
-      }
-    },
-    {
-      "name": "9ex2k0dy-30_btwmt59w1-100",
-      "frequency": 1,
-      "responses": {
-        "peck_left": {
-          "p_punish": 1.0,
-          "correct": false
-        },
-        "peck_center": {
-          "p_punish": 1.0,
-          "correct": false
-        },
-        "peck_right": {
-          "p_reward": 1.0,
-          "correct": true
-        },
-        "timeout": {
-          "p_punish": 1.0,
-          "correct": false
-        }
-      }
-    },
-    {
-      "name": "c95zqjxq-30_btwmt59w1-65",
-      "frequency": 1,
-      "responses": {
-        "peck_left": {
-          "p_reward": 1.0,
-          "correct": true
-        },
-        "peck_center": {
-          "p_punish": 1.0,
-          "correct": false
-        },
-        "peck_right": {
-          "p_punish": 1.0,
-          "correct": false
-        },
-        "timeout": {
-          "p_punish": 1.0,
-          "correct": false
-        }
-      }
-    },
-    {
-      "name": "igmi8fxa-30_btwmt59w5-60",
+      "name": "igmi8fxa-30_btwmt59w3-100",
       "frequency": 1,
       "responses": {
         "peck_left": {
@@ -139,7 +51,7 @@
       }
     },
     {
-      "name": "c95zqjxq-30_btwmt59w4-100",
+      "name": "c95zqjxq-30_btwmt59w3-65",
       "frequency": 1,
       "responses": {
         "peck_left": {
@@ -153,6 +65,94 @@
         "peck_right": {
           "p_punish": 1.0,
           "correct": false
+        },
+        "timeout": {
+          "p_punish": 1.0,
+          "correct": false
+        }
+      }
+    },
+    {
+      "name": "c95zqjxq-30_btwmt59w3-100",
+      "frequency": 1,
+      "responses": {
+        "peck_left": {
+          "p_reward": 1.0,
+          "correct": true
+        },
+        "peck_center": {
+          "p_punish": 1.0,
+          "correct": false
+        },
+        "peck_right": {
+          "p_punish": 1.0,
+          "correct": false
+        },
+        "timeout": {
+          "p_punish": 1.0,
+          "correct": false
+        }
+      }
+    },
+    {
+      "name": "igmi8fxa-30_btwmt59w3-60",
+      "frequency": 1,
+      "responses": {
+        "peck_left": {
+          "p_reward": 1.0,
+          "correct": true
+        },
+        "peck_center": {
+          "p_punish": 1.0,
+          "correct": false
+        },
+        "peck_right": {
+          "p_punish": 1.0,
+          "correct": false
+        },
+        "timeout": {
+          "p_punish": 1.0,
+          "correct": false
+        }
+      }
+    },
+    {
+      "name": "9ex2k0dy-30_btwmt59w2-65",
+      "frequency": 1,
+      "responses": {
+        "peck_left": {
+          "p_punish": 1.0,
+          "correct": false
+        },
+        "peck_center": {
+          "p_punish": 1.0,
+          "correct": false
+        },
+        "peck_right": {
+          "p_reward": 1.0,
+          "correct": true
+        },
+        "timeout": {
+          "p_punish": 1.0,
+          "correct": false
+        }
+      }
+    },
+    {
+      "name": "jkexyrd5-30_btwmt59w5-100",
+      "frequency": 1,
+      "responses": {
+        "peck_left": {
+          "p_punish": 1.0,
+          "correct": false
+        },
+        "peck_center": {
+          "p_punish": 1.0,
+          "correct": false
+        },
+        "peck_right": {
+          "p_reward": 1.0,
+          "correct": true
         },
         "timeout": {
           "p_punish": 1.0,
@@ -183,51 +183,7 @@
       }
     },
     {
-      "name": "igmi8fxa-30_btwmt59w2-65",
-      "frequency": 1,
-      "responses": {
-        "peck_left": {
-          "p_reward": 1.0,
-          "correct": true
-        },
-        "peck_center": {
-          "p_punish": 1.0,
-          "correct": false
-        },
-        "peck_right": {
-          "p_punish": 1.0,
-          "correct": false
-        },
-        "timeout": {
-          "p_punish": 1.0,
-          "correct": false
-        }
-      }
-    },
-    {
-      "name": "igmi8fxa-30_btwmt59w4-60",
-      "frequency": 1,
-      "responses": {
-        "peck_left": {
-          "p_reward": 1.0,
-          "correct": true
-        },
-        "peck_center": {
-          "p_punish": 1.0,
-          "correct": false
-        },
-        "peck_right": {
-          "p_punish": 1.0,
-          "correct": false
-        },
-        "timeout": {
-          "p_punish": 1.0,
-          "correct": false
-        }
-      }
-    },
-    {
-      "name": "jkexyrd5-30_btwmt59w2-100",
+      "name": "9ex2k0dy-30_btwmt59w4-100",
       "frequency": 1,
       "responses": {
         "peck_left": {
@@ -249,7 +205,7 @@
       }
     },
     {
-      "name": "c95zqjxq-30_btwmt59w5-100",
+      "name": "c95zqjxq-30_btwmt59w4-60",
       "frequency": 1,
       "responses": {
         "peck_left": {
@@ -271,20 +227,20 @@
       }
     },
     {
-      "name": "igmi8fxa-30_btwmt59w4-100",
+      "name": "9ex2k0dy-30_btwmt59w3-100",
       "frequency": 1,
       "responses": {
         "peck_left": {
-          "p_reward": 1.0,
-          "correct": true
+          "p_punish": 1.0,
+          "correct": false
         },
         "peck_center": {
           "p_punish": 1.0,
           "correct": false
         },
         "peck_right": {
-          "p_punish": 1.0,
-          "correct": false
+          "p_reward": 1.0,
+          "correct": true
         },
         "timeout": {
           "p_punish": 1.0,
@@ -293,7 +249,7 @@
       }
     },
     {
-      "name": "igmi8fxa-30_btwmt59w1-65",
+      "name": "igmi8fxa-30_btwmt59w5-65",
       "frequency": 1,
       "responses": {
         "peck_left": {
@@ -337,7 +293,73 @@
       }
     },
     {
-      "name": "9ex2k0dy-30_btwmt59w5-100",
+      "name": "igmi8fxa-30_btwmt59w2-65",
+      "frequency": 1,
+      "responses": {
+        "peck_left": {
+          "p_reward": 1.0,
+          "correct": true
+        },
+        "peck_center": {
+          "p_punish": 1.0,
+          "correct": false
+        },
+        "peck_right": {
+          "p_punish": 1.0,
+          "correct": false
+        },
+        "timeout": {
+          "p_punish": 1.0,
+          "correct": false
+        }
+      }
+    },
+    {
+      "name": "igmi8fxa-30_btwmt59w4-100",
+      "frequency": 1,
+      "responses": {
+        "peck_left": {
+          "p_reward": 1.0,
+          "correct": true
+        },
+        "peck_center": {
+          "p_punish": 1.0,
+          "correct": false
+        },
+        "peck_right": {
+          "p_punish": 1.0,
+          "correct": false
+        },
+        "timeout": {
+          "p_punish": 1.0,
+          "correct": false
+        }
+      }
+    },
+    {
+      "name": "c95zqjxq-30_btwmt59w4-65",
+      "frequency": 1,
+      "responses": {
+        "peck_left": {
+          "p_reward": 1.0,
+          "correct": true
+        },
+        "peck_center": {
+          "p_punish": 1.0,
+          "correct": false
+        },
+        "peck_right": {
+          "p_punish": 1.0,
+          "correct": false
+        },
+        "timeout": {
+          "p_punish": 1.0,
+          "correct": false
+        }
+      }
+    },
+    {
+      "name": "jkexyrd5-30_btwmt59w5-60",
       "frequency": 1,
       "responses": {
         "peck_left": {
@@ -360,6 +382,72 @@
     },
     {
       "name": "9ex2k0dy-30_btwmt59w1-60",
+      "frequency": 1,
+      "responses": {
+        "peck_left": {
+          "p_punish": 1.0,
+          "correct": false
+        },
+        "peck_center": {
+          "p_punish": 1.0,
+          "correct": false
+        },
+        "peck_right": {
+          "p_reward": 1.0,
+          "correct": true
+        },
+        "timeout": {
+          "p_punish": 1.0,
+          "correct": false
+        }
+      }
+    },
+    {
+      "name": "igmi8fxa-30_btwmt59w3-65",
+      "frequency": 1,
+      "responses": {
+        "peck_left": {
+          "p_reward": 1.0,
+          "correct": true
+        },
+        "peck_center": {
+          "p_punish": 1.0,
+          "correct": false
+        },
+        "peck_right": {
+          "p_punish": 1.0,
+          "correct": false
+        },
+        "timeout": {
+          "p_punish": 1.0,
+          "correct": false
+        }
+      }
+    },
+    {
+      "name": "9ex2k0dy-30_btwmt59w3-65",
+      "frequency": 1,
+      "responses": {
+        "peck_left": {
+          "p_punish": 1.0,
+          "correct": false
+        },
+        "peck_center": {
+          "p_punish": 1.0,
+          "correct": false
+        },
+        "peck_right": {
+          "p_reward": 1.0,
+          "correct": true
+        },
+        "timeout": {
+          "p_punish": 1.0,
+          "correct": false
+        }
+      }
+    },
+    {
+      "name": "jkexyrd5-30_btwmt59w4-100",
       "frequency": 1,
       "responses": {
         "peck_left": {
@@ -425,182 +513,6 @@
       }
     },
     {
-      "name": "jkexyrd5-30_btwmt59w4-60",
-      "frequency": 1,
-      "responses": {
-        "peck_left": {
-          "p_punish": 1.0,
-          "correct": false
-        },
-        "peck_center": {
-          "p_punish": 1.0,
-          "correct": false
-        },
-        "peck_right": {
-          "p_reward": 1.0,
-          "correct": true
-        },
-        "timeout": {
-          "p_punish": 1.0,
-          "correct": false
-        }
-      }
-    },
-    {
-      "name": "igmi8fxa-30_btwmt59w2-100",
-      "frequency": 1,
-      "responses": {
-        "peck_left": {
-          "p_reward": 1.0,
-          "correct": true
-        },
-        "peck_center": {
-          "p_punish": 1.0,
-          "correct": false
-        },
-        "peck_right": {
-          "p_punish": 1.0,
-          "correct": false
-        },
-        "timeout": {
-          "p_punish": 1.0,
-          "correct": false
-        }
-      }
-    },
-    {
-      "name": "c95zqjxq-30_btwmt59w1-60",
-      "frequency": 1,
-      "responses": {
-        "peck_left": {
-          "p_reward": 1.0,
-          "correct": true
-        },
-        "peck_center": {
-          "p_punish": 1.0,
-          "correct": false
-        },
-        "peck_right": {
-          "p_punish": 1.0,
-          "correct": false
-        },
-        "timeout": {
-          "p_punish": 1.0,
-          "correct": false
-        }
-      }
-    },
-    {
-      "name": "igmi8fxa-30_btwmt59w5-65",
-      "frequency": 1,
-      "responses": {
-        "peck_left": {
-          "p_reward": 1.0,
-          "correct": true
-        },
-        "peck_center": {
-          "p_punish": 1.0,
-          "correct": false
-        },
-        "peck_right": {
-          "p_punish": 1.0,
-          "correct": false
-        },
-        "timeout": {
-          "p_punish": 1.0,
-          "correct": false
-        }
-      }
-    },
-    {
-      "name": "c95zqjxq-30_btwmt59w4-60",
-      "frequency": 1,
-      "responses": {
-        "peck_left": {
-          "p_reward": 1.0,
-          "correct": true
-        },
-        "peck_center": {
-          "p_punish": 1.0,
-          "correct": false
-        },
-        "peck_right": {
-          "p_punish": 1.0,
-          "correct": false
-        },
-        "timeout": {
-          "p_punish": 1.0,
-          "correct": false
-        }
-      }
-    },
-    {
-      "name": "9ex2k0dy-30_btwmt59w2-60",
-      "frequency": 1,
-      "responses": {
-        "peck_left": {
-          "p_punish": 1.0,
-          "correct": false
-        },
-        "peck_center": {
-          "p_punish": 1.0,
-          "correct": false
-        },
-        "peck_right": {
-          "p_reward": 1.0,
-          "correct": true
-        },
-        "timeout": {
-          "p_punish": 1.0,
-          "correct": false
-        }
-      }
-    },
-    {
-      "name": "9ex2k0dy-30_btwmt59w3-65",
-      "frequency": 1,
-      "responses": {
-        "peck_left": {
-          "p_punish": 1.0,
-          "correct": false
-        },
-        "peck_center": {
-          "p_punish": 1.0,
-          "correct": false
-        },
-        "peck_right": {
-          "p_reward": 1.0,
-          "correct": true
-        },
-        "timeout": {
-          "p_punish": 1.0,
-          "correct": false
-        }
-      }
-    },
-    {
-      "name": "c95zqjxq-30_btwmt59w3-60",
-      "frequency": 1,
-      "responses": {
-        "peck_left": {
-          "p_reward": 1.0,
-          "correct": true
-        },
-        "peck_center": {
-          "p_punish": 1.0,
-          "correct": false
-        },
-        "peck_right": {
-          "p_punish": 1.0,
-          "correct": false
-        },
-        "timeout": {
-          "p_punish": 1.0,
-          "correct": false
-        }
-      }
-    },
-    {
       "name": "jkexyrd5-30_btwmt59w1-60",
       "frequency": 1,
       "responses": {
@@ -623,7 +535,7 @@
       }
     },
     {
-      "name": "igmi8fxa-30_btwmt59w5-100",
+      "name": "igmi8fxa-30_btwmt59w5-60",
       "frequency": 1,
       "responses": {
         "peck_left": {
@@ -645,469 +557,7 @@
       }
     },
     {
-      "name": "9ex2k0dy-30_btwmt59w4-60",
-      "frequency": 1,
-      "responses": {
-        "peck_left": {
-          "p_punish": 1.0,
-          "correct": false
-        },
-        "peck_center": {
-          "p_punish": 1.0,
-          "correct": false
-        },
-        "peck_right": {
-          "p_reward": 1.0,
-          "correct": true
-        },
-        "timeout": {
-          "p_punish": 1.0,
-          "correct": false
-        }
-      }
-    },
-    {
-      "name": "jkexyrd5-30_btwmt59w5-60",
-      "frequency": 1,
-      "responses": {
-        "peck_left": {
-          "p_punish": 1.0,
-          "correct": false
-        },
-        "peck_center": {
-          "p_punish": 1.0,
-          "correct": false
-        },
-        "peck_right": {
-          "p_reward": 1.0,
-          "correct": true
-        },
-        "timeout": {
-          "p_punish": 1.0,
-          "correct": false
-        }
-      }
-    },
-    {
-      "name": "jkexyrd5-30_btwmt59w5-100",
-      "frequency": 1,
-      "responses": {
-        "peck_left": {
-          "p_punish": 1.0,
-          "correct": false
-        },
-        "peck_center": {
-          "p_punish": 1.0,
-          "correct": false
-        },
-        "peck_right": {
-          "p_reward": 1.0,
-          "correct": true
-        },
-        "timeout": {
-          "p_punish": 1.0,
-          "correct": false
-        }
-      }
-    },
-    {
-      "name": "jkexyrd5-30_btwmt59w3-100",
-      "frequency": 1,
-      "responses": {
-        "peck_left": {
-          "p_punish": 1.0,
-          "correct": false
-        },
-        "peck_center": {
-          "p_punish": 1.0,
-          "correct": false
-        },
-        "peck_right": {
-          "p_reward": 1.0,
-          "correct": true
-        },
-        "timeout": {
-          "p_punish": 1.0,
-          "correct": false
-        }
-      }
-    },
-    {
-      "name": "c95zqjxq-30_btwmt59w3-65",
-      "frequency": 1,
-      "responses": {
-        "peck_left": {
-          "p_reward": 1.0,
-          "correct": true
-        },
-        "peck_center": {
-          "p_punish": 1.0,
-          "correct": false
-        },
-        "peck_right": {
-          "p_punish": 1.0,
-          "correct": false
-        },
-        "timeout": {
-          "p_punish": 1.0,
-          "correct": false
-        }
-      }
-    },
-    {
-      "name": "9ex2k0dy-30_btwmt59w5-60",
-      "frequency": 1,
-      "responses": {
-        "peck_left": {
-          "p_punish": 1.0,
-          "correct": false
-        },
-        "peck_center": {
-          "p_punish": 1.0,
-          "correct": false
-        },
-        "peck_right": {
-          "p_reward": 1.0,
-          "correct": true
-        },
-        "timeout": {
-          "p_punish": 1.0,
-          "correct": false
-        }
-      }
-    },
-    {
-      "name": "c95zqjxq-30_btwmt59w2-100",
-      "frequency": 1,
-      "responses": {
-        "peck_left": {
-          "p_reward": 1.0,
-          "correct": true
-        },
-        "peck_center": {
-          "p_punish": 1.0,
-          "correct": false
-        },
-        "peck_right": {
-          "p_punish": 1.0,
-          "correct": false
-        },
-        "timeout": {
-          "p_punish": 1.0,
-          "correct": false
-        }
-      }
-    },
-    {
-      "name": "igmi8fxa-30_btwmt59w3-65",
-      "frequency": 1,
-      "responses": {
-        "peck_left": {
-          "p_reward": 1.0,
-          "correct": true
-        },
-        "peck_center": {
-          "p_punish": 1.0,
-          "correct": false
-        },
-        "peck_right": {
-          "p_punish": 1.0,
-          "correct": false
-        },
-        "timeout": {
-          "p_punish": 1.0,
-          "correct": false
-        }
-      }
-    },
-    {
-      "name": "9ex2k0dy-30_btwmt59w2-65",
-      "frequency": 1,
-      "responses": {
-        "peck_left": {
-          "p_punish": 1.0,
-          "correct": false
-        },
-        "peck_center": {
-          "p_punish": 1.0,
-          "correct": false
-        },
-        "peck_right": {
-          "p_reward": 1.0,
-          "correct": true
-        },
-        "timeout": {
-          "p_punish": 1.0,
-          "correct": false
-        }
-      }
-    },
-    {
-      "name": "9ex2k0dy-30_btwmt59w1-65",
-      "frequency": 1,
-      "responses": {
-        "peck_left": {
-          "p_punish": 1.0,
-          "correct": false
-        },
-        "peck_center": {
-          "p_punish": 1.0,
-          "correct": false
-        },
-        "peck_right": {
-          "p_reward": 1.0,
-          "correct": true
-        },
-        "timeout": {
-          "p_punish": 1.0,
-          "correct": false
-        }
-      }
-    },
-    {
-      "name": "c95zqjxq-30_btwmt59w2-65",
-      "frequency": 1,
-      "responses": {
-        "peck_left": {
-          "p_reward": 1.0,
-          "correct": true
-        },
-        "peck_center": {
-          "p_punish": 1.0,
-          "correct": false
-        },
-        "peck_right": {
-          "p_punish": 1.0,
-          "correct": false
-        },
-        "timeout": {
-          "p_punish": 1.0,
-          "correct": false
-        }
-      }
-    },
-    {
-      "name": "c95zqjxq-30_btwmt59w4-65",
-      "frequency": 1,
-      "responses": {
-        "peck_left": {
-          "p_reward": 1.0,
-          "correct": true
-        },
-        "peck_center": {
-          "p_punish": 1.0,
-          "correct": false
-        },
-        "peck_right": {
-          "p_punish": 1.0,
-          "correct": false
-        },
-        "timeout": {
-          "p_punish": 1.0,
-          "correct": false
-        }
-      }
-    },
-    {
-      "name": "c95zqjxq-30_btwmt59w3-100",
-      "frequency": 1,
-      "responses": {
-        "peck_left": {
-          "p_reward": 1.0,
-          "correct": true
-        },
-        "peck_center": {
-          "p_punish": 1.0,
-          "correct": false
-        },
-        "peck_right": {
-          "p_punish": 1.0,
-          "correct": false
-        },
-        "timeout": {
-          "p_punish": 1.0,
-          "correct": false
-        }
-      }
-    },
-    {
-      "name": "c95zqjxq-30_btwmt59w1-100",
-      "frequency": 1,
-      "responses": {
-        "peck_left": {
-          "p_reward": 1.0,
-          "correct": true
-        },
-        "peck_center": {
-          "p_punish": 1.0,
-          "correct": false
-        },
-        "peck_right": {
-          "p_punish": 1.0,
-          "correct": false
-        },
-        "timeout": {
-          "p_punish": 1.0,
-          "correct": false
-        }
-      }
-    },
-    {
-      "name": "jkexyrd5-30_btwmt59w5-65",
-      "frequency": 1,
-      "responses": {
-        "peck_left": {
-          "p_punish": 1.0,
-          "correct": false
-        },
-        "peck_center": {
-          "p_punish": 1.0,
-          "correct": false
-        },
-        "peck_right": {
-          "p_reward": 1.0,
-          "correct": true
-        },
-        "timeout": {
-          "p_punish": 1.0,
-          "correct": false
-        }
-      }
-    },
-    {
-      "name": "igmi8fxa-30_btwmt59w3-100",
-      "frequency": 1,
-      "responses": {
-        "peck_left": {
-          "p_reward": 1.0,
-          "correct": true
-        },
-        "peck_center": {
-          "p_punish": 1.0,
-          "correct": false
-        },
-        "peck_right": {
-          "p_punish": 1.0,
-          "correct": false
-        },
-        "timeout": {
-          "p_punish": 1.0,
-          "correct": false
-        }
-      }
-    },
-    {
-      "name": "9ex2k0dy-30_btwmt59w3-60",
-      "frequency": 1,
-      "responses": {
-        "peck_left": {
-          "p_punish": 1.0,
-          "correct": false
-        },
-        "peck_center": {
-          "p_punish": 1.0,
-          "correct": false
-        },
-        "peck_right": {
-          "p_reward": 1.0,
-          "correct": true
-        },
-        "timeout": {
-          "p_punish": 1.0,
-          "correct": false
-        }
-      }
-    },
-    {
-      "name": "igmi8fxa-30_btwmt59w4-65",
-      "frequency": 1,
-      "responses": {
-        "peck_left": {
-          "p_reward": 1.0,
-          "correct": true
-        },
-        "peck_center": {
-          "p_punish": 1.0,
-          "correct": false
-        },
-        "peck_right": {
-          "p_punish": 1.0,
-          "correct": false
-        },
-        "timeout": {
-          "p_punish": 1.0,
-          "correct": false
-        }
-      }
-    },
-    {
-      "name": "c95zqjxq-30_btwmt59w5-65",
-      "frequency": 1,
-      "responses": {
-        "peck_left": {
-          "p_reward": 1.0,
-          "correct": true
-        },
-        "peck_center": {
-          "p_punish": 1.0,
-          "correct": false
-        },
-        "peck_right": {
-          "p_punish": 1.0,
-          "correct": false
-        },
-        "timeout": {
-          "p_punish": 1.0,
-          "correct": false
-        }
-      }
-    },
-    {
-      "name": "jkexyrd5-30_btwmt59w3-65",
-      "frequency": 1,
-      "responses": {
-        "peck_left": {
-          "p_punish": 1.0,
-          "correct": false
-        },
-        "peck_center": {
-          "p_punish": 1.0,
-          "correct": false
-        },
-        "peck_right": {
-          "p_reward": 1.0,
-          "correct": true
-        },
-        "timeout": {
-          "p_punish": 1.0,
-          "correct": false
-        }
-      }
-    },
-    {
-      "name": "igmi8fxa-30_btwmt59w3-60",
-      "frequency": 1,
-      "responses": {
-        "peck_left": {
-          "p_reward": 1.0,
-          "correct": true
-        },
-        "peck_center": {
-          "p_punish": 1.0,
-          "correct": false
-        },
-        "peck_right": {
-          "p_punish": 1.0,
-          "correct": false
-        },
-        "timeout": {
-          "p_punish": 1.0,
-          "correct": false
-        }
-      }
-    },
-    {
-      "name": "jkexyrd5-30_btwmt59w4-100",
+      "name": "jkexyrd5-30_btwmt59w2-100",
       "frequency": 1,
       "responses": {
         "peck_left": {
@@ -1143,94 +593,6 @@
         "peck_right": {
           "p_punish": 1.0,
           "correct": false
-        },
-        "timeout": {
-          "p_punish": 1.0,
-          "correct": false
-        }
-      }
-    },
-    {
-      "name": "jkexyrd5-30_btwmt59w4-65",
-      "frequency": 1,
-      "responses": {
-        "peck_left": {
-          "p_punish": 1.0,
-          "correct": false
-        },
-        "peck_center": {
-          "p_punish": 1.0,
-          "correct": false
-        },
-        "peck_right": {
-          "p_reward": 1.0,
-          "correct": true
-        },
-        "timeout": {
-          "p_punish": 1.0,
-          "correct": false
-        }
-      }
-    },
-    {
-      "name": "igmi8fxa-30_btwmt59w1-100",
-      "frequency": 1,
-      "responses": {
-        "peck_left": {
-          "p_reward": 1.0,
-          "correct": true
-        },
-        "peck_center": {
-          "p_punish": 1.0,
-          "correct": false
-        },
-        "peck_right": {
-          "p_punish": 1.0,
-          "correct": false
-        },
-        "timeout": {
-          "p_punish": 1.0,
-          "correct": false
-        }
-      }
-    },
-    {
-      "name": "9ex2k0dy-30_btwmt59w3-100",
-      "frequency": 1,
-      "responses": {
-        "peck_left": {
-          "p_punish": 1.0,
-          "correct": false
-        },
-        "peck_center": {
-          "p_punish": 1.0,
-          "correct": false
-        },
-        "peck_right": {
-          "p_reward": 1.0,
-          "correct": true
-        },
-        "timeout": {
-          "p_punish": 1.0,
-          "correct": false
-        }
-      }
-    },
-    {
-      "name": "jkexyrd5-30_btwmt59w2-65",
-      "frequency": 1,
-      "responses": {
-        "peck_left": {
-          "p_punish": 1.0,
-          "correct": false
-        },
-        "peck_center": {
-          "p_punish": 1.0,
-          "correct": false
-        },
-        "peck_right": {
-          "p_reward": 1.0,
-          "correct": true
         },
         "timeout": {
           "p_punish": 1.0,
@@ -1283,7 +645,249 @@
       }
     },
     {
-      "name": "9ex2k0dy-30_btwmt59w4-100",
+      "name": "c95zqjxq-30_btwmt59w1-100",
+      "frequency": 1,
+      "responses": {
+        "peck_left": {
+          "p_reward": 1.0,
+          "correct": true
+        },
+        "peck_center": {
+          "p_punish": 1.0,
+          "correct": false
+        },
+        "peck_right": {
+          "p_punish": 1.0,
+          "correct": false
+        },
+        "timeout": {
+          "p_punish": 1.0,
+          "correct": false
+        }
+      }
+    },
+    {
+      "name": "c95zqjxq-30_btwmt59w1-65",
+      "frequency": 1,
+      "responses": {
+        "peck_left": {
+          "p_reward": 1.0,
+          "correct": true
+        },
+        "peck_center": {
+          "p_punish": 1.0,
+          "correct": false
+        },
+        "peck_right": {
+          "p_punish": 1.0,
+          "correct": false
+        },
+        "timeout": {
+          "p_punish": 1.0,
+          "correct": false
+        }
+      }
+    },
+    {
+      "name": "jkexyrd5-30_btwmt59w3-65",
+      "frequency": 1,
+      "responses": {
+        "peck_left": {
+          "p_punish": 1.0,
+          "correct": false
+        },
+        "peck_center": {
+          "p_punish": 1.0,
+          "correct": false
+        },
+        "peck_right": {
+          "p_reward": 1.0,
+          "correct": true
+        },
+        "timeout": {
+          "p_punish": 1.0,
+          "correct": false
+        }
+      }
+    },
+    {
+      "name": "9ex2k0dy-30_btwmt59w1-100",
+      "frequency": 1,
+      "responses": {
+        "peck_left": {
+          "p_punish": 1.0,
+          "correct": false
+        },
+        "peck_center": {
+          "p_punish": 1.0,
+          "correct": false
+        },
+        "peck_right": {
+          "p_reward": 1.0,
+          "correct": true
+        },
+        "timeout": {
+          "p_punish": 1.0,
+          "correct": false
+        }
+      }
+    },
+    {
+      "name": "c95zqjxq-30_btwmt59w5-100",
+      "frequency": 1,
+      "responses": {
+        "peck_left": {
+          "p_reward": 1.0,
+          "correct": true
+        },
+        "peck_center": {
+          "p_punish": 1.0,
+          "correct": false
+        },
+        "peck_right": {
+          "p_punish": 1.0,
+          "correct": false
+        },
+        "timeout": {
+          "p_punish": 1.0,
+          "correct": false
+        }
+      }
+    },
+    {
+      "name": "9ex2k0dy-30_btwmt59w3-60",
+      "frequency": 1,
+      "responses": {
+        "peck_left": {
+          "p_punish": 1.0,
+          "correct": false
+        },
+        "peck_center": {
+          "p_punish": 1.0,
+          "correct": false
+        },
+        "peck_right": {
+          "p_reward": 1.0,
+          "correct": true
+        },
+        "timeout": {
+          "p_punish": 1.0,
+          "correct": false
+        }
+      }
+    },
+    {
+      "name": "igmi8fxa-30_btwmt59w5-100",
+      "frequency": 1,
+      "responses": {
+        "peck_left": {
+          "p_reward": 1.0,
+          "correct": true
+        },
+        "peck_center": {
+          "p_punish": 1.0,
+          "correct": false
+        },
+        "peck_right": {
+          "p_punish": 1.0,
+          "correct": false
+        },
+        "timeout": {
+          "p_punish": 1.0,
+          "correct": false
+        }
+      }
+    },
+    {
+      "name": "c95zqjxq-30_btwmt59w5-65",
+      "frequency": 1,
+      "responses": {
+        "peck_left": {
+          "p_reward": 1.0,
+          "correct": true
+        },
+        "peck_center": {
+          "p_punish": 1.0,
+          "correct": false
+        },
+        "peck_right": {
+          "p_punish": 1.0,
+          "correct": false
+        },
+        "timeout": {
+          "p_punish": 1.0,
+          "correct": false
+        }
+      }
+    },
+    {
+      "name": "jkexyrd5-30_btwmt59w5-65",
+      "frequency": 1,
+      "responses": {
+        "peck_left": {
+          "p_punish": 1.0,
+          "correct": false
+        },
+        "peck_center": {
+          "p_punish": 1.0,
+          "correct": false
+        },
+        "peck_right": {
+          "p_reward": 1.0,
+          "correct": true
+        },
+        "timeout": {
+          "p_punish": 1.0,
+          "correct": false
+        }
+      }
+    },
+    {
+      "name": "c95zqjxq-30_btwmt59w1-60",
+      "frequency": 1,
+      "responses": {
+        "peck_left": {
+          "p_reward": 1.0,
+          "correct": true
+        },
+        "peck_center": {
+          "p_punish": 1.0,
+          "correct": false
+        },
+        "peck_right": {
+          "p_punish": 1.0,
+          "correct": false
+        },
+        "timeout": {
+          "p_punish": 1.0,
+          "correct": false
+        }
+      }
+    },
+    {
+      "name": "igmi8fxa-30_btwmt59w4-65",
+      "frequency": 1,
+      "responses": {
+        "peck_left": {
+          "p_reward": 1.0,
+          "correct": true
+        },
+        "peck_center": {
+          "p_punish": 1.0,
+          "correct": false
+        },
+        "peck_right": {
+          "p_punish": 1.0,
+          "correct": false
+        },
+        "timeout": {
+          "p_punish": 1.0,
+          "correct": false
+        }
+      }
+    },
+    {
+      "name": "9ex2k0dy-30_btwmt59w1-65",
       "frequency": 1,
       "responses": {
         "peck_left": {
@@ -1306,6 +910,402 @@
     },
     {
       "name": "jkexyrd5-30_btwmt59w3-60",
+      "frequency": 1,
+      "responses": {
+        "peck_left": {
+          "p_punish": 1.0,
+          "correct": false
+        },
+        "peck_center": {
+          "p_punish": 1.0,
+          "correct": false
+        },
+        "peck_right": {
+          "p_reward": 1.0,
+          "correct": true
+        },
+        "timeout": {
+          "p_punish": 1.0,
+          "correct": false
+        }
+      }
+    },
+    {
+      "name": "igmi8fxa-30_btwmt59w1-65",
+      "frequency": 1,
+      "responses": {
+        "peck_left": {
+          "p_reward": 1.0,
+          "correct": true
+        },
+        "peck_center": {
+          "p_punish": 1.0,
+          "correct": false
+        },
+        "peck_right": {
+          "p_punish": 1.0,
+          "correct": false
+        },
+        "timeout": {
+          "p_punish": 1.0,
+          "correct": false
+        }
+      }
+    },
+    {
+      "name": "igmi8fxa-30_btwmt59w1-100",
+      "frequency": 1,
+      "responses": {
+        "peck_left": {
+          "p_reward": 1.0,
+          "correct": true
+        },
+        "peck_center": {
+          "p_punish": 1.0,
+          "correct": false
+        },
+        "peck_right": {
+          "p_punish": 1.0,
+          "correct": false
+        },
+        "timeout": {
+          "p_punish": 1.0,
+          "correct": false
+        }
+      }
+    },
+    {
+      "name": "9ex2k0dy-30_btwmt59w4-65",
+      "frequency": 1,
+      "responses": {
+        "peck_left": {
+          "p_punish": 1.0,
+          "correct": false
+        },
+        "peck_center": {
+          "p_punish": 1.0,
+          "correct": false
+        },
+        "peck_right": {
+          "p_reward": 1.0,
+          "correct": true
+        },
+        "timeout": {
+          "p_punish": 1.0,
+          "correct": false
+        }
+      }
+    },
+    {
+      "name": "c95zqjxq-30_btwmt59w3-60",
+      "frequency": 1,
+      "responses": {
+        "peck_left": {
+          "p_reward": 1.0,
+          "correct": true
+        },
+        "peck_center": {
+          "p_punish": 1.0,
+          "correct": false
+        },
+        "peck_right": {
+          "p_punish": 1.0,
+          "correct": false
+        },
+        "timeout": {
+          "p_punish": 1.0,
+          "correct": false
+        }
+      }
+    },
+    {
+      "name": "jkexyrd5-30_btwmt59w4-60",
+      "frequency": 1,
+      "responses": {
+        "peck_left": {
+          "p_punish": 1.0,
+          "correct": false
+        },
+        "peck_center": {
+          "p_punish": 1.0,
+          "correct": false
+        },
+        "peck_right": {
+          "p_reward": 1.0,
+          "correct": true
+        },
+        "timeout": {
+          "p_punish": 1.0,
+          "correct": false
+        }
+      }
+    },
+    {
+      "name": "igmi8fxa-30_btwmt59w4-60",
+      "frequency": 1,
+      "responses": {
+        "peck_left": {
+          "p_reward": 1.0,
+          "correct": true
+        },
+        "peck_center": {
+          "p_punish": 1.0,
+          "correct": false
+        },
+        "peck_right": {
+          "p_punish": 1.0,
+          "correct": false
+        },
+        "timeout": {
+          "p_punish": 1.0,
+          "correct": false
+        }
+      }
+    },
+    {
+      "name": "jkexyrd5-30_btwmt59w2-60",
+      "frequency": 1,
+      "responses": {
+        "peck_left": {
+          "p_punish": 1.0,
+          "correct": false
+        },
+        "peck_center": {
+          "p_punish": 1.0,
+          "correct": false
+        },
+        "peck_right": {
+          "p_reward": 1.0,
+          "correct": true
+        },
+        "timeout": {
+          "p_punish": 1.0,
+          "correct": false
+        }
+      }
+    },
+    {
+      "name": "c95zqjxq-30_btwmt59w2-100",
+      "frequency": 1,
+      "responses": {
+        "peck_left": {
+          "p_reward": 1.0,
+          "correct": true
+        },
+        "peck_center": {
+          "p_punish": 1.0,
+          "correct": false
+        },
+        "peck_right": {
+          "p_punish": 1.0,
+          "correct": false
+        },
+        "timeout": {
+          "p_punish": 1.0,
+          "correct": false
+        }
+      }
+    },
+    {
+      "name": "igmi8fxa-30_btwmt59w2-100",
+      "frequency": 1,
+      "responses": {
+        "peck_left": {
+          "p_reward": 1.0,
+          "correct": true
+        },
+        "peck_center": {
+          "p_punish": 1.0,
+          "correct": false
+        },
+        "peck_right": {
+          "p_punish": 1.0,
+          "correct": false
+        },
+        "timeout": {
+          "p_punish": 1.0,
+          "correct": false
+        }
+      }
+    },
+    {
+      "name": "jkexyrd5-30_btwmt59w3-100",
+      "frequency": 1,
+      "responses": {
+        "peck_left": {
+          "p_punish": 1.0,
+          "correct": false
+        },
+        "peck_center": {
+          "p_punish": 1.0,
+          "correct": false
+        },
+        "peck_right": {
+          "p_reward": 1.0,
+          "correct": true
+        },
+        "timeout": {
+          "p_punish": 1.0,
+          "correct": false
+        }
+      }
+    },
+    {
+      "name": "9ex2k0dy-30_btwmt59w5-100",
+      "frequency": 1,
+      "responses": {
+        "peck_left": {
+          "p_punish": 1.0,
+          "correct": false
+        },
+        "peck_center": {
+          "p_punish": 1.0,
+          "correct": false
+        },
+        "peck_right": {
+          "p_reward": 1.0,
+          "correct": true
+        },
+        "timeout": {
+          "p_punish": 1.0,
+          "correct": false
+        }
+      }
+    },
+    {
+      "name": "9ex2k0dy-30_btwmt59w2-60",
+      "frequency": 1,
+      "responses": {
+        "peck_left": {
+          "p_punish": 1.0,
+          "correct": false
+        },
+        "peck_center": {
+          "p_punish": 1.0,
+          "correct": false
+        },
+        "peck_right": {
+          "p_reward": 1.0,
+          "correct": true
+        },
+        "timeout": {
+          "p_punish": 1.0,
+          "correct": false
+        }
+      }
+    },
+    {
+      "name": "c95zqjxq-30_btwmt59w4-100",
+      "frequency": 1,
+      "responses": {
+        "peck_left": {
+          "p_reward": 1.0,
+          "correct": true
+        },
+        "peck_center": {
+          "p_punish": 1.0,
+          "correct": false
+        },
+        "peck_right": {
+          "p_punish": 1.0,
+          "correct": false
+        },
+        "timeout": {
+          "p_punish": 1.0,
+          "correct": false
+        }
+      }
+    },
+    {
+      "name": "9ex2k0dy-30_btwmt59w5-60",
+      "frequency": 1,
+      "responses": {
+        "peck_left": {
+          "p_punish": 1.0,
+          "correct": false
+        },
+        "peck_center": {
+          "p_punish": 1.0,
+          "correct": false
+        },
+        "peck_right": {
+          "p_reward": 1.0,
+          "correct": true
+        },
+        "timeout": {
+          "p_punish": 1.0,
+          "correct": false
+        }
+      }
+    },
+    {
+      "name": "jkexyrd5-30_btwmt59w2-65",
+      "frequency": 1,
+      "responses": {
+        "peck_left": {
+          "p_punish": 1.0,
+          "correct": false
+        },
+        "peck_center": {
+          "p_punish": 1.0,
+          "correct": false
+        },
+        "peck_right": {
+          "p_reward": 1.0,
+          "correct": true
+        },
+        "timeout": {
+          "p_punish": 1.0,
+          "correct": false
+        }
+      }
+    },
+    {
+      "name": "jkexyrd5-30_btwmt59w4-65",
+      "frequency": 1,
+      "responses": {
+        "peck_left": {
+          "p_punish": 1.0,
+          "correct": false
+        },
+        "peck_center": {
+          "p_punish": 1.0,
+          "correct": false
+        },
+        "peck_right": {
+          "p_reward": 1.0,
+          "correct": true
+        },
+        "timeout": {
+          "p_punish": 1.0,
+          "correct": false
+        }
+      }
+    },
+    {
+      "name": "c95zqjxq-30_btwmt59w2-65",
+      "frequency": 1,
+      "responses": {
+        "peck_left": {
+          "p_reward": 1.0,
+          "correct": true
+        },
+        "peck_center": {
+          "p_punish": 1.0,
+          "correct": false
+        },
+        "peck_right": {
+          "p_punish": 1.0,
+          "correct": false
+        },
+        "timeout": {
+          "p_punish": 1.0,
+          "correct": false
+        }
+      }
+    },
+    {
+      "name": "9ex2k0dy-30_btwmt59w4-60",
       "frequency": 1,
       "responses": {
         "peck_left": {

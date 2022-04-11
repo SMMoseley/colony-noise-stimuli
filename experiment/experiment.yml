@@ -14,7 +14,7 @@ decide:
     1: [9ex2k0dy, jkexyrd5, c95zqjxq, igmi8fxa]
 stimuli:
   decisive_attribute: foreground
-  format: "{foreground}{foreground_dBFS}_{background}{background_dBFS}"
+  format: "{foreground}{foreground_dBFS}_{background}{background_variant}{background_dBFS}"
   foreground_dBFS:
     inclusive_less_than: true
     values: [-30]
@@ -35,8 +35,6 @@ stimuli:
       - jkexyrd5
   background:
     values:
-      - btwmt59w1
-      - btwmt59w2  
-      - btwmt59w3 
-      - btwmt59w4  
-      - btwmt59w5  
+      - btwmt59w
+  background_variant:
+     values: [1, 2, 3, 4, 5]
