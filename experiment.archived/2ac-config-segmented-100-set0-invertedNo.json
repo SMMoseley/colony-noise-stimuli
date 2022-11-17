@@ -188,7 +188,7 @@
       "responses": {
         "peck_left": {
           "p_reward": 1.0,
-          "correct": false
+          "correct": true
         },
         "peck_center": {
           "p_punish": 1.0,
@@ -196,7 +196,7 @@
         },
         "peck_right": {
           "p_punish": 1.0,
-          "correct": true
+          "correct": false
         },
         "timeout": {
           "p_punish": 1.0,
@@ -210,7 +210,7 @@
       "responses": {
         "peck_left": {
           "p_reward": 1.0,
-          "correct": false
+          "correct": true
         },
         "peck_center": {
           "p_punish": 1.0,
@@ -218,7 +218,7 @@
         },
         "peck_right": {
           "p_punish": 1.0,
-          "correct": true
+          "correct": false
         },
         "timeout": {
           "p_punish": 1.0,
@@ -232,7 +232,7 @@
       "responses": {
         "peck_left": {
           "p_reward": 1.0,
-          "correct": false
+          "correct": true
         },
         "peck_center": {
           "p_punish": 1.0,
@@ -240,7 +240,7 @@
         },
         "peck_right": {
           "p_punish": 1.0,
-          "correct": true
+          "correct": false
         },
         "timeout": {
           "p_punish": 1.0,
@@ -254,7 +254,7 @@
       "responses": {
         "peck_left": {
           "p_reward": 1.0,
-          "correct": false
+          "correct": true
         },
         "peck_center": {
           "p_punish": 1.0,
@@ -262,7 +262,7 @@
         },
         "peck_right": {
           "p_punish": 1.0,
-          "correct": true
+          "correct": false
         },
         "timeout": {
           "p_punish": 1.0,
@@ -276,7 +276,7 @@
       "responses": {
         "peck_left": {
           "p_reward": 1.0,
-          "correct": false
+          "correct": true
         },
         "peck_center": {
           "p_punish": 1.0,
@@ -284,7 +284,7 @@
         },
         "peck_right": {
           "p_punish": 1.0,
-          "correct": true
+          "correct": false
         },
         "timeout": {
           "p_punish": 1.0,

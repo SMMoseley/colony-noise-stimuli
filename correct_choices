@@ -1,0 +1,44 @@
+set_0:
+ - inverted: No
+ 	vekibwgj: left
+ 	ztqee46x: right
+ 	l1a3ltpy: left
+ 	0oq8ifcb: right
+ - inverted: Yes
+ 	 vekibwgj: right
+ 	ztqee46x: left
+ 	l1a3ltpy: right
+ 	0oq8ifcb: left
+ set_1:
+ - inverted: No
+  	jkexyrd5: left,
+ 	c95zqjxq: right,
+ 	9ex2k0dy: left,
+ 	igmi8fxa: right
+ - inverted: Yes
+ 	jkexyrd5: right
+  	c95zqjxq: left
+ 	9ex2k0dy: right
+ 	igmi8fxa: left
+ 	
+ previously,
+ in set0, inverted no: 
+  	vekibwgj: left
+ 	ztqee46x: right
+ 	l1a3ltpy: left
+ 	0oq8ifcb: left
+ in set0, inverted yes:
+  	vekibwgj: left
+ 	ztqee46x: right
+ 	l1a3ltpy: right
+ 	0oq8ifcb: right
+ in set1, inverted no:
+ 	jkexyrd5: left,
+ 	c95zqjxq: right,
+ 	9ex2k0dy: left,
+ 	igmi8fxa: right
+ in set1, inverted yes:
+  	jkexyrd5: right
+  	c95zqjxq: left
+ 	9ex2k0dy: right
+ 	igmi8fxa: left
