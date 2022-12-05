@@ -228,8 +228,9 @@ function present_stim() {
             if (msg[key]) {
                 update_state({phase: "interrupted", stimulus: null});
                 t.req("get-state", {name: "aplayer"}, function(data, rep) {
-                    if (rep.playing != false)
+                    if (rep.playing) {
                         t.change_state("aplayer", {playing: false});
+                    }
                 });
                 pecked = key;
                 return true;
@@ -238,8 +239,10 @@ function present_stim() {
     }
 
     function _exit(time) {
-        //end stim if interrupted
         update_state({phase: "post-stimulus", stimulus: null});
+        t.req("get-state", {name: "aplayer"}, function(data, rep) {
+            logger.info(rep);
+        });
         const rtime = (pecked == "timeout") ? null : time - resp_start;
         let result = "no_feed";
         const resp = stim.responses[pecked];
