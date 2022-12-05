@@ -12,12 +12,12 @@ const name = "gng";
 const version = require('../package.json').version;
 
 const argv = require("yargs")
-    .usage("Run a GNG or 2AC task.\nUsage: $0 [options] subject_id @slack-id stims.json")
+    .usage("Run a GNG task for Noise Invariance.\nUsage: $0 [options] subject_id @slack-id stims.json")
     .describe("response-window", "response window duration (in ms)")
     .describe("feed-duration", "default feeding duration for correct responses (in ms)")
 //    .describe("lightsout-duration", "default lights out duration for incorrect responses (in ms)")
 //    .describe("max-corrections", "maximum number of correction trials (0 = no corrections)")
-    .describe("replace", "randomize trials with replacement")
+//    .describe("replace", "randomize trials with replacement")
 //    .describe("correct-timeout", "correction trials for incorrect failure to respond ")
 //    .describe("feed-delay", "time (in ms) to wait between response and feeding")
     .default({"response-window": 2000, "feed-duration": 4000,
@@ -63,6 +63,7 @@ const meta = {
     }
 };
 
+let stim_prop;
 let sock;
 const update_state = t.state_changer(name, state);
 
@@ -175,6 +176,11 @@ t.connect(name, function(socket) {
         }
     });
 
+    //get stimulus metadata
+    t.req("get-meta", {name: "aplayer"}, function(data, rep) {
+        stim_prop = rep.stimuli.properties;
+    });
+
     // initial state;
     await_init();
 })
@@ -204,9 +210,11 @@ function intertrial(duration) {
 }
 
 function present_stim() {
+    let pecked = "timeout"
     const stim = //(state.correction) ? state.stimulus :
           stimset.next(1);
     logger.debug("next stim:", stim)
+    const stim_dur = stim_prop[stim.name].duration;
     update_state({phase: "presenting-stimulus", stimulus: stim })
 
     const resp_start = util.now();
@@ -247,7 +255,7 @@ function present_stim() {
         }
 
 
-        logger.debug("(p_feed, p_punish, x, result):", p_feed, p_punish, rand, conseq);
+        logger.debug("(p_feed, x, result):", p_feed, rand, result);
         t.trial_data(name, {subject: par.subject,
             experiment: stimset.experiment,
             trial: state.trial,
