@@ -198,8 +198,7 @@ process.on("SIGINT", shutdown);
 process.on("SIGTERM", shutdown);
 
 function await_init() {
-    update_state({trial: state.trial + 1,
-        phase: "awaiting-trial-init"});
+    update_state({phase: "awaiting-trial-init"});
     t.await("keys", null, function(msg) { return msg && msg[par.init_key]}, present_stim);
 }
 
@@ -215,13 +214,9 @@ function present_stim() {
           stimset.next(1);
     logger.debug("next stim:", stim)
     const stim_dur = stim_prop[stim.name].duration;
-    update_state({phase: "presenting-stimulus", stimulus: stim })
+    update_state({trial: state.trial + 1,
+        phase: "presenting-stimulus", stimulus: stim })
 
-    t.req("get-state", {name: "aplayer"}, function(data, rep) {
-        if (rep.playing) {
-            t.change_state("aplayer", {playing: false});
-        }
-    });
     t.req("get-state", {name: "aplayer"}, function(data, rep) {
         logger.info(rep);
     });
@@ -234,7 +229,12 @@ function present_stim() {
         if (!msg) return true;
         return _.find(stim.responses, function(val, key) {
             if (msg[key]) {
-                update_state({phase: "interrupted", stimulus: null});
+                update_state({phase: "interrupted"});
+                t.req("get-state", {name: "aplayer"}, function(data, rep) {
+                    if (rep.playing) {
+                        t.req("INTERRUPT", {name: "aplayer"});
+                    }
+                });
                 pecked = key;
                 return true;
             }
