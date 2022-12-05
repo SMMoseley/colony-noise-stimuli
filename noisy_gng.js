@@ -235,7 +235,10 @@ function present_stim() {
     function _exit(time) {
         //end stim if interrupted
         update_state({phase: "post-stimulus", stimulus: null});
-        t.change_state("aplayer", {playing: false});
+        t.req("get-state", {name: "aplayer"}, function(data, rep) {
+            if (rep.playing != false)
+                t.change_state("aplayer", {playing: false});
+        });
         const rtime = (pecked == "timeout") ? null : time - resp_start;
         let result = "no_feed";
         const resp = stim.responses[pecked];
