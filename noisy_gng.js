@@ -8,7 +8,7 @@ const t = require("../lib/client");           // bank of apparatus manipulation 
 const logger = require("../lib/log");
 const util = require("../lib/util");
 
-const name = "gng";
+const name = "noisy-gng";
 const version = require('../package.json').version;
 
 const argv = require("yargs")
@@ -217,8 +217,16 @@ function present_stim() {
     const stim_dur = stim_prop[stim.name].duration;
     update_state({phase: "presenting-stimulus", stimulus: stim })
 
+    t.req("get-state", {name: "aplayer"}, function(data, rep) {
+        if (rep.playing) {
+            t.change_state("aplayer", {playing: false});
+        }
+    });
+    t.req("get-state", {name: "aplayer"}, function(data, rep) {
+        logger.info(rep);
+    });
     const resp_start = util.now();
-    t.set_cues(stim.cue_stim, 1);
+    //t.set_cues(stim.cue_stim, 1);
     t.change_state("aplayer", {playing: true, stimulus: stim.name, root: stimset.root});
     t.await("keys", (stim_dur*1000)+par.response_window, _interrupt, _exit)
 
@@ -227,11 +235,6 @@ function present_stim() {
         return _.find(stim.responses, function(val, key) {
             if (msg[key]) {
                 update_state({phase: "interrupted", stimulus: null});
-                t.req("get-state", {name: "aplayer"}, function(data, rep) {
-                    if (rep.playing) {
-                        t.change_state("aplayer", {playing: false});
-                    }
-                });
                 pecked = key;
                 return true;
             }
@@ -240,9 +243,6 @@ function present_stim() {
 
     function _exit(time) {
         update_state({phase: "post-stimulus", stimulus: null});
-        t.req("get-state", {name: "aplayer"}, function(data, rep) {
-            logger.info(rep);
-        });
         const rtime = (pecked == "timeout") ? null : time - resp_start;
         let result = "no_feed";
         const resp = stim.responses[pecked];
