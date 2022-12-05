@@ -224,6 +224,13 @@ function present_stim() {
 
     function _interrupt(msg) {
         if (!msg) return true;
+        t.req("get-state", {name: "aplayer"}, function(data, rep) {
+            print("hey interrupting now")
+            if (rep.playing != false)
+                print("here it is")
+                t.change_state("aplayer", {playing: false});
+        });
+        update_state({phase: "interrupted", stimulus: null});
         return _.find(stim.responses, function(val, key) {
             if (msg[key]) {
                 pecked = key;
@@ -235,10 +242,6 @@ function present_stim() {
     function _exit(time) {
         //end stim if interrupted
         update_state({phase: "post-stimulus", stimulus: null});
-        t.req("get-state", {name: "aplayer"}, function(data, rep) {
-            if (rep.playing != false)
-                t.change_state("aplayer", {playing: false});
-        });
         const rtime = (pecked == "timeout") ? null : time - resp_start;
         let result = "no_feed";
         const resp = stim.responses[pecked];
