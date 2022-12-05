@@ -224,10 +224,9 @@ function present_stim() {
 
     function _interrupt(msg) {
         if (!msg) return true;
-
-        update_state({phase: "interrupted", stimulus: null});
         return _.find(stim.responses, function(val, key) {
             if (msg[key]) {
+                update_state({phase: "interrupted", stimulus: null});
                 t.req("get-state", {name: "aplayer"}, function(data, rep) {
                     if (rep.playing != false)
                         t.change_state("aplayer", {playing: false});
