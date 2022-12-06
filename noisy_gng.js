@@ -202,10 +202,10 @@ function await_init() {
     t.await("keys", null, function(msg) { return msg && msg[par.init_key]}, present_stim);
 }
 
-function intertrial(duration) {
+function interrupt_wait(duration) {
     logger.debug("ITI: %d ms", duration)
     update_state({phase: "intertrial"})
-    _.delay(await_init, duration);
+    _.delay(present_stim, duration);
 }
 
 function present_stim() {
@@ -283,7 +283,7 @@ function present_stim() {
             feed();
         }
         else if (result == 'interrupt')
-            present_stim();
+            interrupt_wait(2000);
         else
             await_init();
     }

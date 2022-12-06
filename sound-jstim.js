@@ -127,17 +127,19 @@ function aplayer(params, name, pub) {
                     let request = "INTERRUPT";
                     req_sock.once("message", (msg) => {
                         jstim_replied = true;
-                        if (msg == "NOTPLAYING")
+                        if (msg == "NOTPLAYING") {
                             // no error is emitted so that users can just
                             // request a stop w/o worrying about what the
                             // current state is
                             winston.info("InterrruptButNotPlaying");
                             rep();
+                        }
                         else if (msg == "BADCMD")
                             rep("protocol error: jstimserver rejected request");
-                        else if (msg == "OK")
+                        else if (msg == "OK") {
                             winston.info("InterruptOk");
                             rep();
+                        }
                         else
                             rep("protocol error: unexpected response from jstimserver");
                     });
