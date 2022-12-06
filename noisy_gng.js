@@ -223,18 +223,14 @@ function present_stim() {
     const resp_start = util.now();
     //t.set_cues(stim.cue_stim, 1);
     t.change_state("aplayer", {playing: true, stimulus: stim.name, root: stimset.root});
-    t.await("keys", (stim_dur*1000)+par.response_window, _interrupt, _exit)
+    t.await("keys", par.response_window, _interrupt, _exit)
 
     function _interrupt(msg) {
         if (!msg) return true;
         return _.find(stim.responses, function(val, key) {
             if (msg[key]) {
                 update_state({phase: "interrupted"});
-                t.req("get-state", {name: "aplayer"}, function(msg, result) {
-                    if (result.playing) {
-                        t.change_state("aplayer", {playing: false});
-                    }
-                });
+                t.change_state("aplayer", {playing: false});
                 pecked = key;
                 return true;
             }
@@ -283,7 +279,7 @@ function present_stim() {
             feed();
         }
         else if (result == 'interrupt')
-            interrupt_wait(2000);
+            present_stim();
         else
             await_init();
     }
@@ -296,7 +292,7 @@ function feed() {
     _.delay(t.change_state, par.feed_delay,
         hopper, { feeding: true, interval: par.feed_duration})
     t.await(hopper, null, function(msg) { return msg.feeding == false },
-        _.partial(intertrial, par.min_iti));
+        _.partial(await_init(), par.min_iti));
 }
 
 /*
