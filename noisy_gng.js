@@ -218,7 +218,7 @@ function present_stim() {
         phase: "presenting-stimulus", stimulus: stim })
 
     t.req("get-state", {name: "aplayer"}, function(data, rep) {
-        logger.info(rep);
+        logger.info("at present",rep);
     });
     const resp_start = util.now();
     //t.set_cues(stim.cue_stim, 1);
@@ -230,9 +230,9 @@ function present_stim() {
         return _.find(stim.responses, function(val, key) {
             if (msg[key]) {
                 update_state({phase: "interrupted"});
-                t.req("get-state", {name: "aplayer"}, function(data, rep) {
-                    if (rep.playing) {
-                        t.req("INTERRUPT", {name: "aplayer"});
+                t.req("get-state", {name: "aplayer"}, function(msg, result) {
+                    if (result.playing) {
+                        t.change_state("aplayer", {playing: false});
                     }
                 });
                 pecked = key;
@@ -243,6 +243,9 @@ function present_stim() {
 
     function _exit(time) {
         update_state({phase: "post-stimulus", stimulus: null});
+        t.req("get-state", {name: "aplayer"}, function(data, rep) {
+            logger.info("at exit", rep);
+        });
         const rtime = (pecked == "timeout") ? null : time - resp_start;
         let result = "no_feed";
         const resp = stim.responses[pecked];
