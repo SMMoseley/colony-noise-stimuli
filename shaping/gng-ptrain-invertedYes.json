@@ -6,7 +6,7 @@
   "stimulus_root": "/root/colony-noise-stimuli/stimuli/clean_stim/",
   "stimuli": [
     {
-      "name": "dhhon79k_30",
+      "name": "dhhon79k_x2_30",
       "frequency": 2,
       "responses": {
         "peck_left": {
@@ -29,7 +29,7 @@
       "category": "no_cue_lights"
     },
     {
-      "name": "pmkimwop_30",
+      "name": "pmkimwop_x2_30",
       "frequency": 8,
       "responses": {
         "peck_left": {

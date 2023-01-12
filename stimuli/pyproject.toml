@@ -1,0 +1,30 @@
+[tool.poetry]
+name = "stimuli"
+version = "0.1.0"
+description = ""
+authors = ["Bao Le"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+ewave = "1.0.6"
+neurobank = "^0.9.7"
+argparse = "^1.4.0"
+pyyaml = "^6.0"
+decide-analysis = "^2.0.1"
+urllib3 = "1.26.3"
+certifi = "2020.12.5"
+cffi = "1.14.5"
+chardet = "4.0.0"
+idna = "2.10"
+pycparser = "2.20"
+requests = "2.25.1"
+samplerate = "0.1.0"
+numpy = "^1.24.1"
+h5py = "^3.7.0"
+tables = "^3.8.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
