@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "bao_behavior"
+version = "0.1.0"
+description = ""
+authors = ["Sam Moseley <smm3rc@virginia.edu>"]
+readme = "README.md"
+packages = [{include = "bao_behavior"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+parse = "^1.19.0"
+pandas = "^1.5.3"
+matplotlib = "^3.6.3"
+
+[tool.poetry.group.dev.dependencies]
+jupyter = "^1.0.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
