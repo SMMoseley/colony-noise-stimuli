@@ -1,3 +1,4 @@
+<<<<<<< HEAD:pre-train/interrupt-pretrain-setAll-invertedYes.json
 {
   "parameters": {
     "init_position": "peck_center",
@@ -53,3 +54,60 @@
     }
   ]
 }
+=======
+{
+  "parameters": {
+    "init_position": "peck_center",
+    "rand_replace": true
+  },
+  "stimulus_root": "/root/colony-noise-stimuli/stimuli/clean_stim/",
+  "stimuli": [
+    {
+      "name": "pmkimwop_x2_30",
+      "frequency": 2,
+      "responses": {
+        "peck_left": {
+          "p_reward": 0.0,
+          "reinforced": false
+        },
+        "peck_center": {
+          "p_reward": 0.0,
+          "reinforced": false
+        },
+        "peck_right": {
+          "p_reward": 0.0,
+          "reinforced": false
+        },
+        "timeout": {
+          "p_reward": 1.0,
+          "reinforced": true
+        }
+      },
+      "category": "no_cue_lights"
+    },
+    {
+      "name": "dhhon79k_x2_30",
+      "frequency": 8,
+      "responses": {
+        "peck_left": {
+          "p_reward": 0.0,
+          "reinforced": false
+        },
+        "peck_center": {
+          "p_reward": 0.0,
+          "reinforced": false
+        },
+        "peck_right": {
+          "p_reward": 0.0,
+          "reinforced": false
+        },
+        "timeout": {
+          "p_reward": 0.0,
+          "reinforced": false
+        }
+      },
+      "category": "no_cue_lights"
+    }
+  ]
+}
+>>>>>>> 53de7b2 (added preprobe and fixed stimuli settings):shaping/gng-ptrain-invertedNo.json
