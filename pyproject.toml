@@ -1,9 +1,10 @@
 [tool.poetry]
-name = "stimuli"
+name = "colony-noise-stimuli"
 version = "0.1.0"
 description = ""
-authors = ["Bao Le"]
+authors = ["Bao Le & Sam Moseley"]
 readme = "README.md"
+packages = [{include = "colony_noise_stimuli"}]
 
 [tool.poetry.dependencies]
 python = "^3.9"
@@ -24,6 +25,9 @@ numpy = "^1.24.1"
 h5py = "^3.7.0"
 tables = "^3.8.0"
 
+[tool.poetry.group.dev.dependencies]
+jupyter = "^1.0.0"
+jupyterthemes = "^0.20.0"
 
 [build-system]
 requires = ["poetry-core"]
