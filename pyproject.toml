@@ -24,6 +24,7 @@ samplerate = "0.1.0"
 numpy = "^1.24.1"
 h5py = "^3.7.0"
 tables = "^3.8.0"
+parse = "^1.19.0"
 
 [tool.poetry.group.dev.dependencies]
 jupyter = "^1.0.0"

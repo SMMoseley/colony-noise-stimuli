@@ -1,8 +1,10 @@
-- name: clean_stim/dhhon79k_x2_30
-  source: dhhon79k
-  dataset: entry_00000/pcm_000
-  interval_ms: [0.0, -1.0]
-- name: clean_stim/pmkimwop_x2_30
-  source: pmkimwop
-  dataset: entry_00001/pcm_000
-  interval_ms: [0.0, -1.0]
+params:
+   dataset: noise_invar_interrupt
+   interval_ms: [0.0, -1.0]
+clean_stim:
+   name: ['pmkimwop','dhhon79k']
+snr_stim:
+   foregrounds: ['0oq8ifcb','9ex2k0dy','c95zqjxq','igmi8fxa','jkexyrd5','l1a3ltpy','vekibwgj','ztqee46x']
+   backgrounds: ['btwmt59w1','btwmt59w2','btwmt59w3','btwmt59w4','btwmt59w5']
+   bg_dbfs: [-100,-20,-25,-30,-35,-40,-45,-50,-55,-60,-65]
+   fg_dbfs: -30
