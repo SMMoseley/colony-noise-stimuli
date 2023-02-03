@@ -1,8 +1,0 @@
-- name: clean_stim/dhhon79k_x2_30
-  source: dhhon79k
-  dataset: entry_00000/pcm_000
-  interval_ms: [0.0, -1.0]
-- name: clean_stim/pmkimwop_x2_30
-  source: pmkimwop
-  dataset: entry_00001/pcm_000
-  interval_ms: [0.0, -1.0]
