@@ -14,10 +14,6 @@
           "p_reward": 1.0,
           "correct": true
         },
-        "peck_center": {
-          "p_punish": 1.0,
-          "correct": false
-        },
         "peck_right": {
           "p_punish": 1.0,
           "correct": false
@@ -33,10 +29,6 @@
       "frequency": 1,
       "responses": {
         "peck_left": {
-          "p_punish": 1.0,
-          "correct": false
-        },
-        "peck_center": {
           "p_punish": 1.0,
           "correct": false
         },
@@ -58,10 +50,6 @@
           "p_reward": 1.0,
           "correct": true
         },
-        "peck_center": {
-          "p_punish": 1.0,
-          "correct": false
-        },
         "peck_right": {
           "p_punish": 1.0,
           "correct": false
@@ -77,10 +65,6 @@
       "frequency": 1,
       "responses": {
         "peck_left": {
-          "p_punish": 1.0,
-          "correct": false
-        },
-        "peck_center": {
           "p_punish": 1.0,
           "correct": false
         },
@@ -102,10 +86,6 @@
           "p_reward": 1.0,
           "correct": true
         },
-        "peck_center": {
-          "p_punish": 1.0,
-          "correct": false
-        },
         "peck_right": {
           "p_punish": 1.0,
           "correct": false
@@ -121,10 +101,6 @@
       "frequency": 1,
       "responses": {
         "peck_left": {
-          "p_punish": 1.0,
-          "correct": false
-        },
-        "peck_center": {
           "p_punish": 1.0,
           "correct": false
         },
@@ -146,10 +122,6 @@
           "p_reward": 1.0,
           "correct": true
         },
-        "peck_center": {
-          "p_punish": 1.0,
-          "correct": false
-        },
         "peck_right": {
           "p_punish": 1.0,
           "correct": false
@@ -165,10 +137,6 @@
       "frequency": 1,
       "responses": {
         "peck_left": {
-          "p_punish": 1.0,
-          "correct": false
-        },
-        "peck_center": {
           "p_punish": 1.0,
           "correct": false
         },
@@ -190,10 +158,6 @@
           "p_punish": 1.0,
           "correct": false
         },
-        "peck_center": {
-          "p_punish": 1.0,
-          "correct": false
-        },
         "peck_right": {
           "p_reward": 1.0,
           "correct": true
@@ -212,10 +176,6 @@
           "p_reward": 1.0,
           "correct": true
         },
-        "peck_center": {
-          "p_punish": 1.0,
-          "correct": false
-        },
         "peck_right": {
           "p_punish": 1.0,
           "correct": false
@@ -231,10 +191,6 @@
       "frequency": 1,
       "responses": {
         "peck_left": {
-          "p_punish": 1.0,
-          "correct": false
-        },
-        "peck_center": {
           "p_punish": 1.0,
           "correct": false
         },
@@ -256,10 +212,6 @@
           "p_punish": 1.0,
           "correct": false
         },
-        "peck_center": {
-          "p_punish": 1.0,
-          "correct": false
-        },
         "peck_right": {
           "p_reward": 1.0,
           "correct": true
@@ -278,10 +230,6 @@
           "p_reward": 1.0,
           "correct": true
         },
-        "peck_center": {
-          "p_punish": 1.0,
-          "correct": false
-        },
         "peck_right": {
           "p_punish": 1.0,
           "correct": false
@@ -297,10 +245,6 @@
       "frequency": 1,
       "responses": {
         "peck_left": {
-          "p_punish": 1.0,
-          "correct": false
-        },
-        "peck_center": {
           "p_punish": 1.0,
           "correct": false
         },
@@ -322,10 +266,6 @@
           "p_punish": 1.0,
           "correct": false
         },
-        "peck_center": {
-          "p_punish": 1.0,
-          "correct": false
-        },
         "peck_right": {
           "p_reward": 1.0,
           "correct": true
@@ -341,10 +281,6 @@
       "frequency": 1,
       "responses": {
         "peck_left": {
-          "p_punish": 1.0,
-          "correct": false
-        },
-        "peck_center": {
           "p_punish": 1.0,
           "correct": false
         },
@@ -366,10 +302,6 @@
           "p_reward": 1.0,
           "correct": true
         },
-        "peck_center": {
-          "p_punish": 1.0,
-          "correct": false
-        },
         "peck_right": {
           "p_punish": 1.0,
           "correct": false
@@ -387,10 +319,6 @@
         "peck_left": {
           "p_reward": 1.0,
           "correct": true
-        },
-        "peck_center": {
-          "p_punish": 1.0,
-          "correct": false
         },
         "peck_right": {
           "p_punish": 1.0,
@@ -410,10 +338,6 @@
           "p_reward": 1.0,
           "correct": true
         },
-        "peck_center": {
-          "p_punish": 1.0,
-          "correct": false
-        },
         "peck_right": {
           "p_punish": 1.0,
           "correct": false
@@ -431,10 +355,6 @@
         "peck_left": {
           "p_reward": 1.0,
           "correct": true
-        },
-        "peck_center": {
-          "p_punish": 1.0,
-          "correct": false
         },
         "peck_right": {
           "p_punish": 1.0,
