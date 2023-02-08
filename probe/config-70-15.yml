@@ -1,0 +1,57 @@
+stage: 'probe'
+stage_configs:
+    foreground_data:
+     -  peck_left: ['vekibwgj','l1a3ltpy']
+        peck_right: ['ztqee46x','0oq8ifcb']
+        play_freq: 1
+        dbfs: -30
+        p_reward: 0.4
+        p_punish: -0.4
+     -  peck_left: ['jkexyrd5','9ex2k0dy']
+        peck_right: ['c95zqjxq','igmi8fxa']
+        play_freq: 1
+        dbfs: -30
+        p_reward: 0.4
+        p_punish: -0.4
+    background_data:
+     -  names: ['btwmt59w1','btwmt59w2','btwmt59w3','btwmt59w4','btwmt59w5']
+        play_freq: 80
+        dbfs: -100
+        p_reward: 0.0
+        p_punish: 0.0
+     -  names: ['btwmt59w1','btwmt59w2','btwmt59w3','btwmt59w4','btwmt59w5']
+        play_freq: 20
+        dbfs: -45
+        p_reward: 0.0
+        p_punish: 0.0
+        
+responses:
+   peck_left: 0.4
+   peck_right: 0.4
+   timeout: 1.4
+inversion_map:
+   peck_left: 'peck_right'
+   peck_right: 'peck_left'
+
+parameters:
+    correct_timeout: True
+    init_position: 'peck_center'
+    rand_replace: True
+stimulus_root: '/root/colony-noise-stimuli/stimuli/snr_stim/'
+
+reward_archetype:
+    p_reward: None
+    correct: True
+punish_archetype:
+    p_punish: None
+    correct: False
+response_archetype:
+    peck_left: None
+    peck_right: None
+    timeout: None
+
+stimulus_archetype:
+    name: None,
+    frequency: None,
+    responses: None,    
+    
