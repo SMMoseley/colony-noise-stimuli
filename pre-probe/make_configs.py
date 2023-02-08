@@ -6,7 +6,7 @@ import pprint as pp
 
 fp = open('config.yml')
 config = yaml.safe_load(fp)
-
+stage = config['stage']
 parameters = config['parameters']
 stimulus_root = config['stimulus_root']
 responses = config['responses']
@@ -32,7 +32,7 @@ class config_file:
     def make_name(self, set_num, fg_dbfs, bg_lvs, invert):
         inv = 'Yes' if invert else 'No'
         snr = '_'.join([str(fg_dbfs-bg_dbfs) for bg_dbfs in bg_lvs])
-        self.name = f'2ac-config-snr{snr}-set{set_num}-inverted{inv}'
+        self.name = f'2ac-{stage}-snr{snr}-set{set_num}-inverted{inv}'
     def stim_check(self):
         fg_count = {}
         bg_count = {}
