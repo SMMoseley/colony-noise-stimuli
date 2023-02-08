@@ -1,0 +1,53 @@
+stage: 'probe'
+stage_configs:
+    foreground_data:
+     -  peck_center: ['vekibwgj','l1a3ltpy']
+        timeout: ['ztqee46x','0oq8ifcb']
+        interrupt_freq: 4
+        timeout_freq: 1
+        dbfs: -30
+        p_reward: 0.5
+     -  peck_center: ['jkexyrd5','9ex2k0dy']
+        timeout: ['c95zqjxq','igmi8fxa']
+        interrupt_freq: 4
+        timeout_freq: 1
+        dbfs: -30
+        p_reward: 0.5
+    background_data:
+     -  names: ['btwmt59w1','btwmt59w2','btwmt59w3','btwmt59w4','btwmt59w5']
+        play_freq: 80
+        dbfs: -100
+        p_reward: 0.0
+     -  names: ['btwmt59w1','btwmt59w2','btwmt59w3','btwmt59w4','btwmt59w5']
+        play_freq: 20
+        dbfs: -30
+        p_reward: 0.0
+responses:
+   peck_center: -0.5
+   timeout: 0.3
+inversion_map:
+   peck_center: 'timeout'
+   timeout: 'peck_center'
+
+parameters:
+    correct_timeout: True
+    init_position: 'peck_center'
+    rand_replace: True
+stimulus_root: '/root/colony-noise-stimuli/stimuli/snr_stim/'
+
+reward_archetype:
+    p_reward: None
+    reinforced: True
+punish_archetype:
+    p_reward: None
+    reinforced: False
+    
+response_archetype:
+    peck_center: None
+    timeout: None
+
+stimulus_archetype:
+    name: None,
+    frequency: None,
+    responses: None,    
+    
