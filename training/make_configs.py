@@ -33,7 +33,7 @@ class config_file:
     def make_name(self, stage, set_num, fg_dbfs, bg_lvs, invert):
         inv = 'Yes' if invert else 'No'
         snr = '_'.join([str(fg_dbfs-bg_dbfs) for bg_dbfs in bg_lvs])
-        self.name = f'interrupt-{stage}-config-snr{snr}-set{set_num}-inverted{inv}'
+        self.name = f'interrupt-{stage}-snr{snr}-set{set_num}-inverted{inv}'
     def stim_check(self):
         fg_count = {}
         bg_count = {}
