@@ -288,7 +288,7 @@
     },
     {
       "name": "ztqee46x-30_btwmt59w1-100_padded",
-      "frequency": 320,
+      "frequency": 80,
       "responses": {
         "peck_center": {
           "p_reward": 0.0,
@@ -302,7 +302,7 @@
     },
     {
       "name": "ztqee46x-30_btwmt59w2-100_padded",
-      "frequency": 320,
+      "frequency": 80,
       "responses": {
         "peck_center": {
           "p_reward": 0.0,
@@ -316,7 +316,7 @@
     },
     {
       "name": "ztqee46x-30_btwmt59w3-100_padded",
-      "frequency": 320,
+      "frequency": 80,
       "responses": {
         "peck_center": {
           "p_reward": 0.0,
@@ -330,7 +330,7 @@
     },
     {
       "name": "ztqee46x-30_btwmt59w4-100_padded",
-      "frequency": 320,
+      "frequency": 80,
       "responses": {
         "peck_center": {
           "p_reward": 0.0,
@@ -344,7 +344,7 @@
     },
     {
       "name": "ztqee46x-30_btwmt59w5-100_padded",
-      "frequency": 320,
+      "frequency": 80,
       "responses": {
         "peck_center": {
           "p_reward": 0.0,
@@ -358,7 +358,7 @@
     },
     {
       "name": "ztqee46x-30_btwmt59w1-60_padded",
-      "frequency": 80,
+      "frequency": 20,
       "responses": {
         "peck_center": {
           "p_reward": 0.0,
@@ -372,7 +372,7 @@
     },
     {
       "name": "ztqee46x-30_btwmt59w2-60_padded",
-      "frequency": 80,
+      "frequency": 20,
       "responses": {
         "peck_center": {
           "p_reward": 0.0,
@@ -386,7 +386,7 @@
     },
     {
       "name": "ztqee46x-30_btwmt59w3-60_padded",
-      "frequency": 80,
+      "frequency": 20,
       "responses": {
         "peck_center": {
           "p_reward": 0.0,
@@ -400,7 +400,7 @@
     },
     {
       "name": "ztqee46x-30_btwmt59w4-60_padded",
-      "frequency": 80,
+      "frequency": 20,
       "responses": {
         "peck_center": {
           "p_reward": 0.0,
@@ -414,7 +414,7 @@
     },
     {
       "name": "ztqee46x-30_btwmt59w5-60_padded",
-      "frequency": 80,
+      "frequency": 20,
       "responses": {
         "peck_center": {
           "p_reward": 0.0,
@@ -428,7 +428,7 @@
     },
     {
       "name": "0oq8ifcb-30_btwmt59w1-100_padded",
-      "frequency": 320,
+      "frequency": 80,
       "responses": {
         "peck_center": {
           "p_reward": 0.0,
@@ -442,7 +442,7 @@
     },
     {
       "name": "0oq8ifcb-30_btwmt59w2-100_padded",
-      "frequency": 320,
+      "frequency": 80,
       "responses": {
         "peck_center": {
           "p_reward": 0.0,
@@ -456,7 +456,7 @@
     },
     {
       "name": "0oq8ifcb-30_btwmt59w3-100_padded",
-      "frequency": 320,
+      "frequency": 80,
       "responses": {
         "peck_center": {
           "p_reward": 0.0,
@@ -470,7 +470,7 @@
     },
     {
       "name": "0oq8ifcb-30_btwmt59w4-100_padded",
-      "frequency": 320,
+      "frequency": 80,
       "responses": {
         "peck_center": {
           "p_reward": 0.0,
@@ -484,7 +484,7 @@
     },
     {
       "name": "0oq8ifcb-30_btwmt59w5-100_padded",
-      "frequency": 320,
+      "frequency": 80,
       "responses": {
         "peck_center": {
           "p_reward": 0.0,
@@ -498,7 +498,7 @@
     },
     {
       "name": "0oq8ifcb-30_btwmt59w1-60_padded",
-      "frequency": 80,
+      "frequency": 20,
       "responses": {
         "peck_center": {
           "p_reward": 0.0,
@@ -512,7 +512,7 @@
     },
     {
       "name": "0oq8ifcb-30_btwmt59w2-60_padded",
-      "frequency": 80,
+      "frequency": 20,
       "responses": {
         "peck_center": {
           "p_reward": 0.0,
@@ -526,7 +526,7 @@
     },
     {
       "name": "0oq8ifcb-30_btwmt59w3-60_padded",
-      "frequency": 80,
+      "frequency": 20,
       "responses": {
         "peck_center": {
           "p_reward": 0.0,
@@ -540,7 +540,7 @@
     },
     {
       "name": "0oq8ifcb-30_btwmt59w4-60_padded",
-      "frequency": 80,
+      "frequency": 20,
       "responses": {
         "peck_center": {
           "p_reward": 0.0,
@@ -554,7 +554,7 @@
     },
     {
       "name": "0oq8ifcb-30_btwmt59w5-60_padded",
-      "frequency": 80,
+      "frequency": 20,
       "responses": {
         "peck_center": {
           "p_reward": 0.0,

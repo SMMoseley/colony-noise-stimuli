@@ -84,7 +84,7 @@ def gen_config():
             cfg_data = config_file(parameters, stimulus_root, responses)
 
             interrupt_freq = fg_set['interrupt_freq']
-            timeout_freq = fg_set['interrupt_freq']
+            timeout_freq = fg_set['timeout_freq']
             fg_reward = fg_set['p_reward']
             fg_dbfs = fg_set['dbfs']
 
