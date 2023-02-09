@@ -4,19 +4,15 @@
     "init_position": "peck_center",
     "rand_replace": true
   },
-  "stimulus_root": "/root/colony-noise-stimuli/stimuli/clean_stim/",
+  "stimulus_root": "/root/colony-noise-stimuli/stimuli/2ac/clean_stim/",
   "stimuli": [
     {
-      "name": "dhhon79k_30",
+      "name": "pmkimwop_30",
       "frequency": 1,
       "responses": {
         "peck_left": {
           "p_reward": 1.0,
           "correct": true
-        },
-        "peck_center": {
-          "p_punish": 1.0,
-          "correct": false
         },
         "peck_right": {
           "p_punish": 1.0,
@@ -30,14 +26,10 @@
       "category": "no_cue_lights"
     },
     {
-      "name": "pmkimwop_30",
+      "name": "dhhon79k_30",
       "frequency": 1,
       "responses": {
         "peck_left": {
-          "p_punish": 1.0,
-          "correct": false
-        },
-        "peck_center": {
           "p_punish": 1.0,
           "correct": false
         },

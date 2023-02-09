@@ -29,7 +29,7 @@ class config_file:
         self.responses = responses
     def add_stim(self, stim):
         self.data['stimuli'].append(stim)
-    def make_name(self, set_num, fg_dbfs, bg_lvs, invert):
+    def make_name(self, stage, set_num, fg_dbfs, bg_lvs, invert):
         inv = 'Yes' if invert else 'No'
         snr = '_'.join([str(fg_dbfs-bg_dbfs) for bg_dbfs in bg_lvs])
         self.name = f'2ac-{stage}-snr{snr}-set{set_num}-inverted{inv}'
