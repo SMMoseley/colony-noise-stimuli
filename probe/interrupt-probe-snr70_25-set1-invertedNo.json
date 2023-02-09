@@ -1,0 +1,570 @@
+{
+  "parameters": {
+    "correct_timeout": true,
+    "init_position": "peck_center",
+    "rand_replace": true
+  },
+  "stimulus_root": "/root/colony-noise-stimuli/stimuli/interrupt/snr_stim/",
+  "stimuli": [
+    {
+      "name": "jkexyrd5-30_btwmt59w1-100_padded",
+      "frequency": 320,
+      "responses": {
+        "peck_center": {
+          "p_reward": 0.0,
+          "reinforced": false
+        },
+        "timeout": {
+          "p_reward": 0.0,
+          "reinforced": false
+        }
+      }
+    },
+    {
+      "name": "jkexyrd5-30_btwmt59w2-100_padded",
+      "frequency": 320,
+      "responses": {
+        "peck_center": {
+          "p_reward": 0.0,
+          "reinforced": false
+        },
+        "timeout": {
+          "p_reward": 0.0,
+          "reinforced": false
+        }
+      }
+    },
+    {
+      "name": "jkexyrd5-30_btwmt59w3-100_padded",
+      "frequency": 320,
+      "responses": {
+        "peck_center": {
+          "p_reward": 0.0,
+          "reinforced": false
+        },
+        "timeout": {
+          "p_reward": 0.0,
+          "reinforced": false
+        }
+      }
+    },
+    {
+      "name": "jkexyrd5-30_btwmt59w4-100_padded",
+      "frequency": 320,
+      "responses": {
+        "peck_center": {
+          "p_reward": 0.0,
+          "reinforced": false
+        },
+        "timeout": {
+          "p_reward": 0.0,
+          "reinforced": false
+        }
+      }
+    },
+    {
+      "name": "jkexyrd5-30_btwmt59w5-100_padded",
+      "frequency": 320,
+      "responses": {
+        "peck_center": {
+          "p_reward": 0.0,
+          "reinforced": false
+        },
+        "timeout": {
+          "p_reward": 0.0,
+          "reinforced": false
+        }
+      }
+    },
+    {
+      "name": "jkexyrd5-30_btwmt59w1-55_padded",
+      "frequency": 80,
+      "responses": {
+        "peck_center": {
+          "p_reward": 0.0,
+          "reinforced": false
+        },
+        "timeout": {
+          "p_reward": 0.0,
+          "reinforced": false
+        }
+      }
+    },
+    {
+      "name": "jkexyrd5-30_btwmt59w2-55_padded",
+      "frequency": 80,
+      "responses": {
+        "peck_center": {
+          "p_reward": 0.0,
+          "reinforced": false
+        },
+        "timeout": {
+          "p_reward": 0.0,
+          "reinforced": false
+        }
+      }
+    },
+    {
+      "name": "jkexyrd5-30_btwmt59w3-55_padded",
+      "frequency": 80,
+      "responses": {
+        "peck_center": {
+          "p_reward": 0.0,
+          "reinforced": false
+        },
+        "timeout": {
+          "p_reward": 0.0,
+          "reinforced": false
+        }
+      }
+    },
+    {
+      "name": "jkexyrd5-30_btwmt59w4-55_padded",
+      "frequency": 80,
+      "responses": {
+        "peck_center": {
+          "p_reward": 0.0,
+          "reinforced": false
+        },
+        "timeout": {
+          "p_reward": 0.0,
+          "reinforced": false
+        }
+      }
+    },
+    {
+      "name": "jkexyrd5-30_btwmt59w5-55_padded",
+      "frequency": 80,
+      "responses": {
+        "peck_center": {
+          "p_reward": 0.0,
+          "reinforced": false
+        },
+        "timeout": {
+          "p_reward": 0.0,
+          "reinforced": false
+        }
+      }
+    },
+    {
+      "name": "9ex2k0dy-30_btwmt59w1-100_padded",
+      "frequency": 320,
+      "responses": {
+        "peck_center": {
+          "p_reward": 0.0,
+          "reinforced": false
+        },
+        "timeout": {
+          "p_reward": 0.0,
+          "reinforced": false
+        }
+      }
+    },
+    {
+      "name": "9ex2k0dy-30_btwmt59w2-100_padded",
+      "frequency": 320,
+      "responses": {
+        "peck_center": {
+          "p_reward": 0.0,
+          "reinforced": false
+        },
+        "timeout": {
+          "p_reward": 0.0,
+          "reinforced": false
+        }
+      }
+    },
+    {
+      "name": "9ex2k0dy-30_btwmt59w3-100_padded",
+      "frequency": 320,
+      "responses": {
+        "peck_center": {
+          "p_reward": 0.0,
+          "reinforced": false
+        },
+        "timeout": {
+          "p_reward": 0.0,
+          "reinforced": false
+        }
+      }
+    },
+    {
+      "name": "9ex2k0dy-30_btwmt59w4-100_padded",
+      "frequency": 320,
+      "responses": {
+        "peck_center": {
+          "p_reward": 0.0,
+          "reinforced": false
+        },
+        "timeout": {
+          "p_reward": 0.0,
+          "reinforced": false
+        }
+      }
+    },
+    {
+      "name": "9ex2k0dy-30_btwmt59w5-100_padded",
+      "frequency": 320,
+      "responses": {
+        "peck_center": {
+          "p_reward": 0.0,
+          "reinforced": false
+        },
+        "timeout": {
+          "p_reward": 0.0,
+          "reinforced": false
+        }
+      }
+    },
+    {
+      "name": "9ex2k0dy-30_btwmt59w1-55_padded",
+      "frequency": 80,
+      "responses": {
+        "peck_center": {
+          "p_reward": 0.0,
+          "reinforced": false
+        },
+        "timeout": {
+          "p_reward": 0.0,
+          "reinforced": false
+        }
+      }
+    },
+    {
+      "name": "9ex2k0dy-30_btwmt59w2-55_padded",
+      "frequency": 80,
+      "responses": {
+        "peck_center": {
+          "p_reward": 0.0,
+          "reinforced": false
+        },
+        "timeout": {
+          "p_reward": 0.0,
+          "reinforced": false
+        }
+      }
+    },
+    {
+      "name": "9ex2k0dy-30_btwmt59w3-55_padded",
+      "frequency": 80,
+      "responses": {
+        "peck_center": {
+          "p_reward": 0.0,
+          "reinforced": false
+        },
+        "timeout": {
+          "p_reward": 0.0,
+          "reinforced": false
+        }
+      }
+    },
+    {
+      "name": "9ex2k0dy-30_btwmt59w4-55_padded",
+      "frequency": 80,
+      "responses": {
+        "peck_center": {
+          "p_reward": 0.0,
+          "reinforced": false
+        },
+        "timeout": {
+          "p_reward": 0.0,
+          "reinforced": false
+        }
+      }
+    },
+    {
+      "name": "9ex2k0dy-30_btwmt59w5-55_padded",
+      "frequency": 80,
+      "responses": {
+        "peck_center": {
+          "p_reward": 0.0,
+          "reinforced": false
+        },
+        "timeout": {
+          "p_reward": 0.0,
+          "reinforced": false
+        }
+      }
+    },
+    {
+      "name": "c95zqjxq-30_btwmt59w1-100_padded",
+      "frequency": 80,
+      "responses": {
+        "peck_center": {
+          "p_reward": 0.0,
+          "reinforced": false
+        },
+        "timeout": {
+          "p_reward": 0.8,
+          "reinforced": true
+        }
+      }
+    },
+    {
+      "name": "c95zqjxq-30_btwmt59w2-100_padded",
+      "frequency": 80,
+      "responses": {
+        "peck_center": {
+          "p_reward": 0.0,
+          "reinforced": false
+        },
+        "timeout": {
+          "p_reward": 0.8,
+          "reinforced": true
+        }
+      }
+    },
+    {
+      "name": "c95zqjxq-30_btwmt59w3-100_padded",
+      "frequency": 80,
+      "responses": {
+        "peck_center": {
+          "p_reward": 0.0,
+          "reinforced": false
+        },
+        "timeout": {
+          "p_reward": 0.8,
+          "reinforced": true
+        }
+      }
+    },
+    {
+      "name": "c95zqjxq-30_btwmt59w4-100_padded",
+      "frequency": 80,
+      "responses": {
+        "peck_center": {
+          "p_reward": 0.0,
+          "reinforced": false
+        },
+        "timeout": {
+          "p_reward": 0.8,
+          "reinforced": true
+        }
+      }
+    },
+    {
+      "name": "c95zqjxq-30_btwmt59w5-100_padded",
+      "frequency": 80,
+      "responses": {
+        "peck_center": {
+          "p_reward": 0.0,
+          "reinforced": false
+        },
+        "timeout": {
+          "p_reward": 0.8,
+          "reinforced": true
+        }
+      }
+    },
+    {
+      "name": "c95zqjxq-30_btwmt59w1-55_padded",
+      "frequency": 20,
+      "responses": {
+        "peck_center": {
+          "p_reward": 0.0,
+          "reinforced": false
+        },
+        "timeout": {
+          "p_reward": 0.8,
+          "reinforced": true
+        }
+      }
+    },
+    {
+      "name": "c95zqjxq-30_btwmt59w2-55_padded",
+      "frequency": 20,
+      "responses": {
+        "peck_center": {
+          "p_reward": 0.0,
+          "reinforced": false
+        },
+        "timeout": {
+          "p_reward": 0.8,
+          "reinforced": true
+        }
+      }
+    },
+    {
+      "name": "c95zqjxq-30_btwmt59w3-55_padded",
+      "frequency": 20,
+      "responses": {
+        "peck_center": {
+          "p_reward": 0.0,
+          "reinforced": false
+        },
+        "timeout": {
+          "p_reward": 0.8,
+          "reinforced": true
+        }
+      }
+    },
+    {
+      "name": "c95zqjxq-30_btwmt59w4-55_padded",
+      "frequency": 20,
+      "responses": {
+        "peck_center": {
+          "p_reward": 0.0,
+          "reinforced": false
+        },
+        "timeout": {
+          "p_reward": 0.8,
+          "reinforced": true
+        }
+      }
+    },
+    {
+      "name": "c95zqjxq-30_btwmt59w5-55_padded",
+      "frequency": 20,
+      "responses": {
+        "peck_center": {
+          "p_reward": 0.0,
+          "reinforced": false
+        },
+        "timeout": {
+          "p_reward": 0.8,
+          "reinforced": true
+        }
+      }
+    },
+    {
+      "name": "igmi8fxa-30_btwmt59w1-100_padded",
+      "frequency": 80,
+      "responses": {
+        "peck_center": {
+          "p_reward": 0.0,
+          "reinforced": false
+        },
+        "timeout": {
+          "p_reward": 0.8,
+          "reinforced": true
+        }
+      }
+    },
+    {
+      "name": "igmi8fxa-30_btwmt59w2-100_padded",
+      "frequency": 80,
+      "responses": {
+        "peck_center": {
+          "p_reward": 0.0,
+          "reinforced": false
+        },
+        "timeout": {
+          "p_reward": 0.8,
+          "reinforced": true
+        }
+      }
+    },
+    {
+      "name": "igmi8fxa-30_btwmt59w3-100_padded",
+      "frequency": 80,
+      "responses": {
+        "peck_center": {
+          "p_reward": 0.0,
+          "reinforced": false
+        },
+        "timeout": {
+          "p_reward": 0.8,
+          "reinforced": true
+        }
+      }
+    },
+    {
+      "name": "igmi8fxa-30_btwmt59w4-100_padded",
+      "frequency": 80,
+      "responses": {
+        "peck_center": {
+          "p_reward": 0.0,
+          "reinforced": false
+        },
+        "timeout": {
+          "p_reward": 0.8,
+          "reinforced": true
+        }
+      }
+    },
+    {
+      "name": "igmi8fxa-30_btwmt59w5-100_padded",
+      "frequency": 80,
+      "responses": {
+        "peck_center": {
+          "p_reward": 0.0,
+          "reinforced": false
+        },
+        "timeout": {
+          "p_reward": 0.8,
+          "reinforced": true
+        }
+      }
+    },
+    {
+      "name": "igmi8fxa-30_btwmt59w1-55_padded",
+      "frequency": 20,
+      "responses": {
+        "peck_center": {
+          "p_reward": 0.0,
+          "reinforced": false
+        },
+        "timeout": {
+          "p_reward": 0.8,
+          "reinforced": true
+        }
+      }
+    },
+    {
+      "name": "igmi8fxa-30_btwmt59w2-55_padded",
+      "frequency": 20,
+      "responses": {
+        "peck_center": {
+          "p_reward": 0.0,
+          "reinforced": false
+        },
+        "timeout": {
+          "p_reward": 0.8,
+          "reinforced": true
+        }
+      }
+    },
+    {
+      "name": "igmi8fxa-30_btwmt59w3-55_padded",
+      "frequency": 20,
+      "responses": {
+        "peck_center": {
+          "p_reward": 0.0,
+          "reinforced": false
+        },
+        "timeout": {
+          "p_reward": 0.8,
+          "reinforced": true
+        }
+      }
+    },
+    {
+      "name": "igmi8fxa-30_btwmt59w4-55_padded",
+      "frequency": 20,
+      "responses": {
+        "peck_center": {
+          "p_reward": 0.0,
+          "reinforced": false
+        },
+        "timeout": {
+          "p_reward": 0.8,
+          "reinforced": true
+        }
+      }
+    },
+    {
+      "name": "igmi8fxa-30_btwmt59w5-55_padded",
+      "frequency": 20,
+      "responses": {
+        "peck_center": {
+          "p_reward": 0.0,
+          "reinforced": false
+        },
+        "timeout": {
+          "p_reward": 0.8,
+          "reinforced": true
+        }
+      }
+    }
+  ]
+}
