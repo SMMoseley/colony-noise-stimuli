@@ -15,8 +15,13 @@ stage_configs:
         p_punish: -0.4
     background_data:
      -  names: ['btwmt59w1','btwmt59w2','btwmt59w3','btwmt59w4','btwmt59w5']
-        play_freq: 80
+        play_freq: 40
         dbfs: -100
+        p_reward: 0.0
+        p_punish: 0.0
+     -  names: ['btwmt59w1','btwmt59w2','btwmt59w3','btwmt59w4','btwmt59w5']
+        play_freq: 40
+        dbfs: -65
         p_reward: 0.0
         p_punish: 0.0
      -  names: ['btwmt59w1','btwmt59w2','btwmt59w3','btwmt59w4','btwmt59w5']

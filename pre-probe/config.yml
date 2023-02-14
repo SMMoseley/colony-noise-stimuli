@@ -1,4 +1,4 @@
-stage: 'preprobe'
+stage: 'probe'
 stage_configs:
     foreground_data:
      -  peck_left: ['vekibwgj','l1a3ltpy']
@@ -19,6 +19,12 @@ stage_configs:
         dbfs: -100
         p_reward: 0.0
         p_punish: 0.0
+     -  names: ['btwmt59w1','btwmt59w2','btwmt59w3','btwmt59w4','btwmt59w5']
+        play_freq: 1
+        dbfs: -65
+        p_reward: 0.0
+        p_punish: 0.0
+        
 responses:
    peck_left: 0.4
    peck_right: 0.4
