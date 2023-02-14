@@ -1,4 +1,4 @@
-stage: 'probe'
+stage: 'preprobe'
 stage_configs:
     foreground_data:
      -  peck_left: ['vekibwgj','l1a3ltpy']
