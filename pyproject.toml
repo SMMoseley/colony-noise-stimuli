@@ -1,10 +1,10 @@
 [tool.poetry]
-name = "bao_behavior"
+name = "colony-noise-stimuli"
 version = "0.1.0"
 description = ""
 authors = ["Sam Moseley <smm3rc@virginia.edu>"]
 readme = "README.md"
-packages = [{include = "bao_behavior"}]
+packages = [{include = "colony-noise-stimuli"}]
 
 [tool.poetry.dependencies]
 python = "^3.9"
